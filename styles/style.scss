@@ -1,0 +1,81 @@
+body
+{
+  background-color: #566270;
+
+  .header
+  {
+    .header__nav
+    {
+      margin-top: 40px; 
+      .nav__ul
+      {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .nav__li
+        {
+          .nav__a
+          {
+            color: #A593E0;
+            font-family: Helvetica, Arial, sans-serif;
+            text-decoration: none;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+
+  .main
+  {
+    margin-top: 80px;
+    .main__title
+    {
+      text-align: center;
+      color: #FFFFF3;
+      font-size: 2rem;
+    }
+    .content
+    {
+      text-align: center;
+      margin-top: 40px; 
+      .content__progress
+      {
+        width: 40%;
+      }
+      .content__annotation
+      {
+        margin-top: 20px;
+        color: #E0E3DA;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .footer
+  {
+    margin-top: 40px;
+    .footer__contact
+    {
+      text-align: center;
+      .contact__subtitle
+      {
+        font-size: 1.5rem;
+        color: #FFFFF3;
+      }
+      .contact__mail
+      {
+        margin: 20px 0px;
+        color: #E0E3DA;
+        font-size: 1.3rem;
+      }
+      .contact__linkedin
+      {
+        margin-top: 20px;
+        width: 10%;
+      }
+    }
+  }
+
+}

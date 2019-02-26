@@ -1,1 +1,1 @@
-console.log("hello")
+console.log("js ? quel js ?")

@@ -4,20 +4,44 @@
     <meta charset="utf-8">
     <title>Thibault Richard | Portfolio | Developpeur web</title>
     <meta name="description" content="Thibault Richard, jeune développeur web front-end">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.min.css">
   </head>
   <body>
-    <h1>Thibault Richard</h1>
-    <img src="src/wip.gif" alt="gif, rouage, work in progress">
-    <p>Portfolio en cours de développement</p>
-    <div>
-      <h2>contact</h2>
-      <p>mail : richard.thibault.contact@gmail.com</p>
-      <h2>Linkedin</h2>
-      <a href="https://www.linkedin.com/in/thibault-richard-49aa04178/">
-        <img class="link" src="src/linkedin.png" alt="">
-      </a>
-    </div>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a class="nav__a" href="pages/works.html">works</a>
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="">about</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <h1 class="main__title">Thibault Richard</h1>
+      <div class="content">
+          <img class="content__progress" src="src/wip.gif" alt="gif, rouage, work in progress">
+          <p class="content__annotation">Portfolio en cours de développement</p>
+      </div>
+     
+      
+    </main>
+
+    <footer class="footer">
+      <div class="footer__contact">
+        <h2 class="contact__subtitle">contact</h2>
+        <p class="contact__mail">Mail : richard.thibault.contact@gmail.com</p>
+        <h2 class="contact__subtitle">Linkedin</h2>
+        <a href="https://www.linkedin.com/in/thibault-richard-49aa04178/">
+          <img class="contact__linkedin" src="src/linkedin.png" alt="logo linkedin">
+        </a>
+      </div>
+    </footer>
+
   <script src="scripts/app.js"></script>
   </body>
 </html>
