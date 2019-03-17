@@ -40,10 +40,6 @@ body
     {
       text-align: center;
       margin-top: 40px; 
-      .content__progress
-      {
-        width: 40%;
-      }
       .content__annotation
       {
         margin-top: 20px;
@@ -58,22 +54,52 @@ body
     margin-top: 40px;
     .footer__contact
     {
-      text-align: center;
-      .contact__subtitle
-      {
-        font-size: 1.5rem;
-        color: #FFFFF3;
-      }
+      text-align: center;   
       .contact__mail
       {
         margin: 20px 0px;
         color: #E0E3DA;
         font-size: 1.3rem;
       }
-      .contact__linkedin
+      .contact__subtitle
+      {  
+        font-size: 1.5rem;
+        color: #FFFFF3;
+      }
+      .social--network
       {
-        margin-top: 20px;
-        width: 10%;
+        padding-top: 40px;
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .network__linkedin
+        {
+          .linkedin__title
+          {
+            font-size: 1.5rem;
+            color: #FFFFF3;
+          }
+          .img--linkedin
+          {
+            margin-top: 20px;
+            width: 50%;
+          }
+        }
+        .network__git
+        {
+          .git__title
+          {
+            font-size: 1.5rem;
+            color: #FFFFF3;
+          }
+          .img--git
+          {
+            margin-top: 20px;
+            width: 50%;
+          }
+        }
       }
     }
   }

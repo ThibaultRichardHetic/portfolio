@@ -21,8 +21,6 @@ body {
     body .main .content {
       text-align: center;
       margin-top: 40px; }
-      body .main .content .content__progress {
-        width: 40%; }
       body .main .content .content__annotation {
         margin-top: 20px;
         color: #E0E3DA;
@@ -31,15 +29,31 @@ body {
     margin-top: 40px; }
     body .footer .footer__contact {
       text-align: center; }
-      body .footer .footer__contact .contact__subtitle {
-        font-size: 1.5rem;
-        color: #FFFFF3; }
       body .footer .footer__contact .contact__mail {
         margin: 20px 0px;
         color: #E0E3DA;
         font-size: 1.3rem; }
-      body .footer .footer__contact .contact__linkedin {
-        margin-top: 20px;
-        width: 10%; }
+      body .footer .footer__contact .contact__subtitle {
+        font-size: 1.5rem;
+        color: #FFFFF3; }
+      body .footer .footer__contact .social--network {
+        padding-top: 40px;
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        body .footer .footer__contact .social--network .network__linkedin .linkedin__title {
+          font-size: 1.5rem;
+          color: #FFFFF3; }
+        body .footer .footer__contact .social--network .network__linkedin .img--linkedin {
+          margin-top: 20px;
+          width: 50%; }
+        body .footer .footer__contact .social--network .network__git .git__title {
+          font-size: 1.5rem;
+          color: #FFFFF3; }
+        body .footer .footer__contact .social--network .network__git .img--git {
+          margin-top: 20px;
+          width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
