@@ -103,5 +103,21 @@ body
       }
     }
   }
-
+}
+.body--works
+{
+  main
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a
+    {
+      h2
+      {
+        font-size: 2rem;
+      }
+    }
+  }
 }
