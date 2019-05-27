@@ -17,15 +17,15 @@
     <nav class="menu">
       <div class="menu--left">
         <div class="menu__content">
-          <a href="#">Thibault Richard</a>
+          <a class="menu__link" href="#">Thibault Richard</a>
         </div>
       </div>
       <div class="menu--right">
         <div class="menu__content">
-          <a href="#">Works.</a>
+          <a class="menu__link" href="#">Works.</a>
         </div>
         <div class="menu__content">
-          <a href="#">About.</a>
+          <a class="menu__link" href="#">About.</a>
         </div>
       </div>
     </nav>

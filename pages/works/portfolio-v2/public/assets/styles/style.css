@@ -1,13 +1,50 @@
+html {
+  font-size: 62.5%; }
+
 .body {
   background-color: #151515; }
-  .body .header .menu {
-    color: #FFF;
+  .body .header {
+    margin-top: 40px;
+    position: fixed;
     width: 84%;
-    border: red solid 1px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between; }
-    .body .header .menu .menu__content {
-      text-decoration: none; }
+    left: 8%; }
+    .body .header .menu {
+      display: flex;
+      justify-content: space-between; }
+      .body .header .menu .menu__content .menu__link {
+        color: #FFF;
+        font-family: "Helvetica Neue";
+        font-size: 1.8rem;
+        text-decoration: none;
+        font-weight: 300; }
+      .body .header .menu .menu--right {
+        width: 10%;
+        display: flex;
+        justify-content: space-between; }
+  .body .main .title {
+    font-family: "Helvetica Neue";
+    color: #FFF;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 3.2rem; }
+  .body .footer {
+    position: fixed;
+    width: 84%;
+    left: 8%;
+    bottom: calc(0% + 40px); }
+    .body .footer .menu {
+      opacity: 0.3;
+      color: #FFF;
+      display: flex;
+      justify-content: space-between; }
+      .body .footer .menu .menu__content .menu__link {
+        font-family: "Helvetica Neue";
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: 300; }
+      .body .footer .menu .menu--left {
+        width: 12%;
+        display: flex;
+        justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
