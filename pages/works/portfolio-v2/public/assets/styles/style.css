@@ -1,0 +1,13 @@
+.body {
+  background-color: #151515; }
+  .body .header .menu {
+    color: #FFF;
+    width: 84%;
+    border: red solid 1px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .body .header .menu .menu__content {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

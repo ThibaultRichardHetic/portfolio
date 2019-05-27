@@ -1,7 +1,7 @@
 <?php
 
 // Configuration 
-  define('URL', 'http://localhost:8888/cours/basket/public/');
+  define('URL', 'http://localhost:8888/perso/portfolio/pages/works/portfolio-v2/public/');
 
 session_start();
 

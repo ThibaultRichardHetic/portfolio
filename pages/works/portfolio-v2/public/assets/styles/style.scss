@@ -1,0 +1,30 @@
+// Defines variables 
+
+$background-color: #151515;
+$red: #C90100;
+$white: #FFF;
+
+$menu-text-syze: 18px;
+
+
+.body
+{
+  background-color: $background-color;
+  .header
+  {
+    .menu
+    {
+      color: $white;
+      width: 84%;
+      border: red solid 1px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      .menu__content
+      {
+        text-decoration: none;
+
+      }
+    }
+  }
+}

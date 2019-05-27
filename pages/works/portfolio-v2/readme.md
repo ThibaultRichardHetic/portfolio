@@ -34,3 +34,7 @@ It is an online game based on actual NBA data. The principle is to create your t
 - [x] Changes the URL of the site for .htaccess can work.
 - [x] Changes the URL of the database so that it can work.
 - [x] Import the database to your server.
+
+
+        <a class="button__text" href="<?= URL ?>connexion">Commencez</a>
+
