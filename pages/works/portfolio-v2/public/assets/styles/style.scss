@@ -13,6 +13,8 @@ $title-text-size: 3.2rem;
 $typo-current: 'Helvetica Neue';
 $typo-weight: 300;
 
+$cursor-size: 36px;
+$cursor-inside-size: 8px;
 
 .body
 {
@@ -48,6 +50,25 @@ $typo-weight: 300;
   }
   .main
   {
+    .cursor
+    {
+      position: absolute;
+      width: $cursor-size;
+      height: $cursor-size;
+      border: solid $red 1px;
+      border-radius: 100%;
+      top: 0;
+      .cursor--in
+      {
+        position: absolute;
+        width: $cursor-inside-size;
+        height: $cursor-inside-size;
+        left: calc(50% - 4px);
+        top: calc(50% - 4px);
+        background-color: $white;
+        border-radius: 100%;
+      }
+    }
     .title
     {
       font-family: $typo-current;

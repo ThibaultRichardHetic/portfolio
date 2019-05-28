@@ -21,6 +21,21 @@ html {
         width: 10%;
         display: flex;
         justify-content: space-between; }
+  .body .main .cursor {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: solid #C90100 1px;
+    border-radius: 100%;
+    top: 0; }
+    .body .main .cursor .cursor--in {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      left: calc(50% - 4px);
+      top: calc(50% - 4px);
+      background-color: #FFF;
+      border-radius: 100%; }
   .body .main .title {
     font-family: "Helvetica Neue";
     color: #FFF;
