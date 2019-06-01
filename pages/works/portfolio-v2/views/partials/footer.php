@@ -20,6 +20,7 @@
       </div>
     </nav>
   </footer>
+  <script src="<?= URL ?>/assets/scripts/fullpage.js"></script>
   <script src="<?= URL ?>/assets/scripts/app.js"></script>
 </body>
 </html>
