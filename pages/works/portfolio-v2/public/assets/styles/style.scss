@@ -1,4 +1,11 @@
 // Set global values
+*{   
+  cursor: none;
+}
+*:hover
+{
+  cursor: none;
+}
 html { font-size: 62.5%; } 
 
 // Defines variables 
@@ -57,17 +64,17 @@ $cursor-inside-size: 8px;
       height: $cursor-size;
       border: solid $red 1px;
       border-radius: 100%;
-      top: 0;
-      .cursor--in
-      {
-        position: absolute;
-        width: $cursor-inside-size;
-        height: $cursor-inside-size;
-        left: calc(50% - 4px);
-        top: calc(50% - 4px);
-        background-color: $white;
-        border-radius: 100%;
-      }
+      // top: 0;
+    }
+    .cursor--in
+    {
+      position: absolute;
+      width: $cursor-inside-size;
+      height: $cursor-inside-size;
+      // left: calc(50% - 4px);
+      // top: calc(50% - 4px);
+      background-color: $white;
+      border-radius: 100%;
     }
     .title
     {
