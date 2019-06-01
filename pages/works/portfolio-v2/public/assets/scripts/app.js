@@ -26,10 +26,43 @@ class Cursor
     this.$cursor.style.left = this.cursorX + 'px' 
     this.$cursor.style.top = this.cursorY + 'px' 
   }
+}
+
+// Class for wave effect in the title
+class Wave
+{
+  constructor()
+  {
+    this.$span_title = document.querySelectorAll('.js-wave')
+    this.waveCall()
+    this.index = 0
+  }
+
+  waveCall()
+  {    
+    (function theLoop (i) {
+      setTimeout(function ()
+      {
+        wave.wave()
+        if (--i) 
+        {
+          this.index ++
+          theLoop(i)
+        }
+      }, 400)
+    })(this.$span_title.length)
+  }
+
+  wave()
+  {
+    this.$span_title[this.index].classList = 'title--wave title--wave-effect js-wave'
+    this.index ++
+  }
 
 }
 
 const cursor = new Cursor()
+const wave = new Wave()
 
 window.onload = function () {
 }

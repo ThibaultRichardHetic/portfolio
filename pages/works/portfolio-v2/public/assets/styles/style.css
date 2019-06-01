@@ -39,12 +39,31 @@ html {
     height: 8px;
     background-color: #FFF;
     border-radius: 100%; }
-  .body .main .title {
-    font-family: "Helvetica Neue";
-    color: #FFF;
-    text-align: center;
-    line-height: 100vh;
-    font-size: 3.2rem; }
+  .body .main .container--title {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 30%;
+    overflow: hidden; }
+@keyframes wave {
+  0% {
+    transform: translateY(-5vh); }
+  100% {
+    transform: translateY(13vh); } }
+    .body .main .container--title .title {
+      font-family: "Helvetica Neue";
+      color: #FFF;
+      text-align: center;
+      font-size: 3.2rem; }
+      .body .main .container--title .title .title__wave {
+        display: inline-block;
+        transform: translateY(-5vh); }
+      .body .main .container--title .title .title--wave-effect {
+        will-change: transform;
+        animation-name: wave;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        display: inline-block; }
   .body .footer {
     position: fixed;
     width: 84%;

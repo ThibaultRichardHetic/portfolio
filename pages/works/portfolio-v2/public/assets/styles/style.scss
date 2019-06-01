@@ -76,13 +76,44 @@ $cursor-inside-size: 8px;
       background-color: $white;
       border-radius: 100%;
     }
-    .title
+    .container--title
     {
-      font-family: $typo-current;
-      color: $white;
-      text-align: center;
-      line-height: 100vh; 
-      font-size: $title-text-size;
+      width: 100%;
+      height: 20vh;
+      position: absolute;
+      top: 30%;
+      overflow: hidden;
+
+      @keyframes wave
+      {
+        0%{
+          transform: translateY(-5vh);
+        }
+        100%{
+          transform: translateY(13vh);
+        }
+      }
+
+      .title
+      {
+        font-family: $typo-current;
+        color: $white;
+        text-align: center;
+        font-size: $title-text-size;
+        .title__wave
+        {
+          display: inline-block;
+          transform: translateY(-5vh);
+        }
+        .title--wave-effect
+        {
+          will-change: transform;
+          animation-name: wave;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          display: inline-block;
+        }
+      }
     }
   }
   .footer
