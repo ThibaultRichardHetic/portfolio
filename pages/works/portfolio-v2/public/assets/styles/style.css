@@ -69,6 +69,31 @@ html {
     width: 84%;
     left: 8%;
     bottom: calc(0% + 40px); }
+    .body .footer .container--scroll {
+      width: 12px;
+      position: absolute;
+      left: calc(50% - 6px); }
+      .body .footer .container--scroll .scroll__mouse {
+        width: 12px;
+        height: 24px;
+        border-radius: 5.5px;
+        background-color: #FFF;
+        opacity: 0.4; }
+@keyframes scroll_invitation {
+  0% {
+    top: 18px; }
+  100% {
+    top: 8px; } }
+      .body .footer .container--scroll .scroll__ball {
+        position: absolute;
+        left: 4px;
+        animation-name: scroll_invitation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        width: 4px;
+        height: 4px;
+        border-radius: 100px;
+        background-color: #C90100; }
     .body .footer .menu {
       opacity: 0.3;
       color: #FFF;

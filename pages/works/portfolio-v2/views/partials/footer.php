@@ -1,4 +1,9 @@
   <footer class="footer">
+    <div class="container--scroll">
+      <div class="scroll__mouse">
+      </div>
+      <div class="scroll__ball"></div>
+    </div>
     <nav class="menu">
       <div class="menu--left">
         <div class="menu__content">

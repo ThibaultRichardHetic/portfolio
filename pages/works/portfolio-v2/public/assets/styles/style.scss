@@ -122,6 +122,43 @@ $cursor-inside-size: 8px;
     width: 84%;
     left: 8%;
     bottom: calc(0% + 40px);
+    .container--scroll
+    {
+      width: 12px;
+      position: absolute;
+      left: calc(50% - 6px);
+      .scroll__mouse
+      {
+        width: 12px;
+        height: 24px;
+        border-radius: 5.5px;
+        background-color: $white;
+        opacity: 0.4;
+      }
+
+      @keyframes scroll_invitation
+      {
+        0%{
+          top: 18px;
+        }
+        100%{
+          top: 8px;
+        }
+      }
+
+      .scroll__ball
+      {
+        position: absolute;
+        left: 4px;
+        animation-name: scroll_invitation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        width: 4px;
+        height: 4px;
+        border-radius: 100px;
+        background-color: $red;
+      }
+    }
     .menu
     {
       opacity: 0.3;
