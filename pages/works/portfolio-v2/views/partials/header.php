@@ -12,8 +12,9 @@
 </head>
 
 <body class="body">
-
   <header class="header">
+    <div class="cursor js-cursor"></div>
+    <div class="cursor--in js-cursor--in"></div>
     <nav class="menu">
       <div class="menu--left">
         <div class="menu__content">
