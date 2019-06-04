@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="<?= URL ?>/assets/styles/style.min.css">
 </head>
 
+
 <body class="body">
+  <div class="cursor js-cursor"></div>
+  <div class="cursor--in js-cursor--in"></div>
   <header class="header">
-    <div class="cursor js-cursor"></div>
-    <div class="cursor--in js-cursor--in"></div>
     <nav class="menu">
       <div class="menu--left">
         <div class="menu__content">
