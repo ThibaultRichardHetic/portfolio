@@ -69,9 +69,9 @@ window.onload = function () {
 
 
 new fullpage('#fullpage', {
-  navigation: true,
+  // navigation: true,
   responsiveWidth: 700,
-  anchors: ['home', 'about-us', 'contact'],
-  parallax: true,
+  // anchors: ['home', 'service-prestige', 'Crehappy'],
+  // parallax: true,
 
 });

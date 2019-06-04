@@ -22,7 +22,6 @@ $project-text-size: 8.6rem;
 $typo-current: 'Helvetica Neue';
 $typo-second: 'Montserrat';
 $typo-weight: 300;
-
 $cursor-size: 36px;
 $cursor-inside-size: 8px;
 
@@ -31,6 +30,7 @@ $cursor-inside-size: 8px;
   background-color: $background-color;
   .cursor
   {
+    pointer-events: none;
     position: absolute;
     width: $cursor-size;
     height: $cursor-size;
@@ -40,6 +40,7 @@ $cursor-inside-size: 8px;
   }
   .cursor--in
   {
+    pointer-events: none;
     position: absolute;
     width: $cursor-inside-size;
     height: $cursor-inside-size;
@@ -120,10 +121,10 @@ $cursor-inside-size: 8px;
         }
       }
     }
-    .section--2
+    .section--2, .section--3, .section--4, .section--5
     {
       position: relative;
-      margin-top: 10vh;      
+      margin-top: 10vh;
       .container--project
       {
         width: 80%;
@@ -190,11 +191,12 @@ $cursor-inside-size: 8px;
           }
           .container--img
           {
+            pointer-events: none;
             position: absolute;
             right: 0;
             z-index: -10;
             overflow: hidden;
-            width: 64%;
+            width: 66%;
             height: 60vh;
             .project__link
             {
@@ -208,6 +210,7 @@ $cursor-inside-size: 8px;
             }
             .img__calque
             {
+              pointer-events: none;
               position: absolute;
               width: 100%;
               height: 100%;
