@@ -33,12 +33,13 @@
               <img class="project__img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="">
             </a>
             <div class="img__calque">
-              
             </div>
           </div>
         </div>
         <div class="container--pagination">
-          
+          <p class="pagination__current">01</p>
+          <div class="pagination__line"></div>
+          <p class="pagination__total">04</p>
         </div>
       </div>
     </section>

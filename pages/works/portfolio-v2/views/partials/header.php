@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="<?= URL ?>/assets/styles/style.min.css">
 </head>
 
-
 <body class="body">
   <div class="cursor js-cursor"></div>
   <div class="cursor--in js-cursor--in"></div>

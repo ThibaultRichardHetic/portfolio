@@ -15,10 +15,12 @@ $red: #C90100;
 $white: #FFF;
 
 $menu-text-size: 1.8rem;
+$pagination-text-size: 2.2rem;
 $title-text-size: 3.2rem; 
 $project-text-size: 8.6rem;
 
 $typo-current: 'Helvetica Neue';
+$typo-second: 'Montserrat';
 $typo-weight: 300;
 
 $cursor-size: 36px;
@@ -51,7 +53,6 @@ $cursor-inside-size: 8px;
     position: fixed;
     width: 80%;
     left: 10%;
-
     .menu
     {
       display: flex;
@@ -77,8 +78,10 @@ $cursor-inside-size: 8px;
   }
   .main
   {
+    position: relative;
     .section--1
     {
+      position: relative;
       .container--title
       {
         width: 100%;
@@ -86,7 +89,6 @@ $cursor-inside-size: 8px;
         position: absolute;
         top: 30%;
         overflow: hidden;
-  
         @keyframes wave
         {
           0%{
@@ -96,7 +98,6 @@ $cursor-inside-size: 8px;
             transform: translateY(13vh);
           }
         }
-  
         .title
         {
           font-family: $typo-current;
@@ -121,15 +122,15 @@ $cursor-inside-size: 8px;
     }
     .section--2
     {
+      position: relative;
+      margin-top: 10vh;      
       .container--project
       {
         width: 80%;
         margin: auto;
         padding-top: 100px;
-        border: red 1px solid;
         .container--content
         {
-          border: green solid 1px;
           position: relative;
           display: flex;
           justify-content: space-around;
@@ -195,7 +196,6 @@ $cursor-inside-size: 8px;
             overflow: hidden;
             width: 64%;
             height: 60vh;
-
             .project__link
             {
               .project__img
@@ -209,7 +209,6 @@ $cursor-inside-size: 8px;
             .img__calque
             {
               position: absolute;
-              border: solid 1px palegreen;
               width: 100%;
               height: 100%;
               z-index: 1;
@@ -217,6 +216,37 @@ $cursor-inside-size: 8px;
               background: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(21,21,21,0.97) 6%, rgba(21,21,21,0.93) 14%, rgba(21,21,21,0.73) 29%, rgba(59,59,59,0.67) 45%, rgba(255,255,255,0) 100%);
             }
           }
+        }
+      }
+      .container--pagination
+      {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 0%;
+        bottom: 60%;
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        align-items: center;
+        .pagination__current
+        {
+          color: $red;
+          font-family: $typo-second;
+          font-weight: bold;
+          font-size: $pagination-text-size;
+        }
+        .pagination__line
+        {
+          height: 2px;
+          background-color: $white;
+          width: 64px;
+        }
+        .pagination__total
+        {
+          font-family: $typo-second;
+          color: $white;
+          font-weight: bold;
+          font-size: $pagination-text-size;
         }
       }
     }  
@@ -250,7 +280,6 @@ $cursor-inside-size: 8px;
           top: 8px;
         }
       }
-
       .scroll__ball
       {
         position: absolute;
