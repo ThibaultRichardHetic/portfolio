@@ -29,9 +29,12 @@
             <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
           </div>
           <div class="container--img">
-            <a href="#">
-              <img src="<?= URL ?>/assets/images/sp-dev.jpg" alt="">
+            <a class="project__link" href="#">
+              <img class="project__img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="">
             </a>
+            <div class="img__calque">
+              
+            </div>
           </div>
         </div>
         <div class="container--pagination">

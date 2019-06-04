@@ -36,5 +36,7 @@ It is an online game based on actual NBA data. The principle is to create your t
 - [x] Import the database to your server.
 
 
-        <a class="button__text" href="<?= URL ?>connexion">Commencez</a>
+## To do 
+
+corriger la position du curseur 
 

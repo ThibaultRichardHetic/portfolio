@@ -31,8 +31,8 @@ $cursor-inside-size: 8px;
   {
     margin-top: 40px;
     position: fixed;
-    width: 90%;
-    left: 5%;
+    width: 80%;
+    left: 10%;
     .cursor
     {
       position: absolute;
@@ -40,17 +40,16 @@ $cursor-inside-size: 8px;
       height: $cursor-size;
       border: solid $red 1px;
       border-radius: 100%;
-      // top: 0;
+      z-index: 100;
     }
     .cursor--in
     {
       position: absolute;
       width: $cursor-inside-size;
       height: $cursor-inside-size;
-      // left: calc(50% - 4px);
-      // top: calc(50% - 4px);
       background-color: $white;
       border-radius: 100%;
+      z-index: 100;
     }
     .menu
     {
@@ -123,14 +122,21 @@ $cursor-inside-size: 8px;
     {
       .container--project
       {
-        width: 90%;
+        width: 80%;
         margin: auto;
         padding-top: 100px;
         border: red 1px solid;
         .container--content
         {
+          border: green solid 1px;
+          position: relative;
+          display: flex;
+          justify-content: space-around;
           .container--text
           {
+            z-index: 1;
+            position: absolute;
+            // left: 5%;
             .project__name
             {
               font-family: $typo-current;
@@ -143,6 +149,7 @@ $cursor-inside-size: 8px;
             }
             .project__title
             {
+              margin-top: 34px;
               color: $white;
               font-weight: $typo-weight;
               font-family: $typo-current;
@@ -159,6 +166,7 @@ $cursor-inside-size: 8px;
             }
             .project__description
             {
+              margin-top: 24px;
               color: $white;
               opacity: 0.8;
               font-weight: $typo-weight;
@@ -169,6 +177,7 @@ $cursor-inside-size: 8px;
             }
             .project__tech
             {
+              margin-top: 34px;
               color: $white;
               opacity: 0.8;
               font-weight: $typo-weight;
@@ -179,8 +188,33 @@ $cursor-inside-size: 8px;
           }
           .container--img
           {
+            position: absolute;
+            right: 0;
+            z-index: 0;
             overflow: hidden;
             width: 64%;
+            height: 60vh;
+
+            .project__link
+            {
+              .project__img
+              {
+                position: absolute;
+                max-width: 100%;
+                max-height: 100%;
+                opacity: 0.3;
+              }
+            }
+            .img__calque
+            {
+              // position: absolute;
+              border: solid 1px palegreen;
+              width: 100%;
+              height: 100%;
+              // background-color: #C90100;
+              background: rgb(21,21,21);
+              background: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(21,21,21,0.97) 6%, rgba(21,21,21,0.93) 14%, rgba(21,21,21,0.73) 29%, rgba(59,59,59,0.67) 45%, rgba(255,255,255,0) 100%);
+            }
           }
         }
       }
@@ -189,8 +223,8 @@ $cursor-inside-size: 8px;
   .footer
   {
     position: fixed;
-    width: 90%;
-    left: 5%;
+    width: 80%;
+    left: 10%;
     bottom: calc(0% + 40px);
     .container--scroll
     {
