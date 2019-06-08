@@ -30,7 +30,7 @@
           </div>
           <div class="container--img">
             <a class="project__link" href="http://www.serviceprestige.com" target="_blank">
-              <img class="project__img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="">
+              <img class="project__img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="service prestige developpement web site">
             </a>
             <div class="img__calque">
             </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="container--img">
             <a class="project__link" href="#">
-              <img class="project__img" src="<?= URL ?>/assets/images/crehappy.png" alt="">
+              <img class="project__img" src="<?= URL ?>/assets/images/crehappy.jpg" alt="crehappy web site">
             </a>
             <div class="img__calque">
             </div>
@@ -84,7 +84,7 @@
           </div>
           <div class="container--img">
             <a class="project__link" href="#">
-              <img class="project__img" src="<?= URL ?>/assets/images/pet-abc.png" alt="">
+              <img class="project__img" src="<?= URL ?>/assets/images/pet-abc.jpg" alt="pet abc web site">
             </a>
             <div class="img__calque">
             </div>
@@ -111,7 +111,7 @@
           </div>
           <div class="container--img">
             <a class="project__link" href="#">
-              <img class="project__img" src="<?= URL ?>/assets/images/type-travel.png" alt="">
+              <img class="project__img" src="<?= URL ?>/assets/images/type-travel.jpg" alt="type travel web site">
             </a>
             <div class="img__calque">
             </div>
@@ -124,8 +124,6 @@
         </div>
       </div>
     </section>
-
-
 
   </main>
 

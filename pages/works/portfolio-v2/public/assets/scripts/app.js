@@ -18,13 +18,13 @@ class Cursor
 
   // Made marker img follow the mouse 
   followCursorIn() {
-    this.$cursor_in.style.left = (this.cursorX + 14) + 'px' 
-    this.$cursor_in.style.top = (this.cursorY + 14) + 'px' 
+    this.$cursor_in.style.left = (this.cursorX + 14 - 18) + 'px' 
+    this.$cursor_in.style.top = (this.cursorY + 14 - 18) + 'px' 
   }
 
   followCursorOut() {
-    this.$cursor.style.left = this.cursorX + 'px' 
-    this.$cursor.style.top = this.cursorY + 'px' 
+    this.$cursor.style.left = (this.cursorX - 18) + 'px' 
+    this.$cursor.style.top = (this.cursorY - 18) + 'px' 
   }
 }
 
