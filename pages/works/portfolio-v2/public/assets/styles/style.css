@@ -24,7 +24,8 @@ html {
     border: solid #C90100 1px;
     border-radius: 100%;
     z-index: 10;
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    display: none; }
   .body .cursor--in {
     pointer-events: none;
     position: absolute;
@@ -32,7 +33,8 @@ html {
     height: 8px;
     background-color: #FFF;
     border-radius: 100%;
-    z-index: 10; }
+    z-index: 10;
+    display: none; }
   .body .header {
     z-index: 2;
     margin-top: 40px;
@@ -74,7 +76,7 @@ html {
         overflow: hidden; }
 @keyframes wave {
   0% {
-    transform: translateY(-5vh); }
+    transform: translateY(-8vh); }
   100% {
     transform: translateY(13vh); } }
         .body .main .section--1 .container--title .title {
@@ -84,7 +86,7 @@ html {
           font-size: 3.2rem; }
           .body .main .section--1 .container--title .title .title__wave {
             display: inline-block;
-            transform: translateY(-5vh); }
+            transform: translateY(-8vh); }
           .body .main .section--1 .container--title .title .title--wave-effect {
             will-change: transform;
             animation-name: wave;
@@ -103,6 +105,7 @@ html {
           display: flex;
           justify-content: space-around; }
           .body .main .section--2 .container--project .container--content .container--text, .body .main .section--3 .container--project .container--content .container--text, .body .main .section--4 .container--project .container--content .container--text, .body .main .section--5 .container--project .container--content .container--text {
+            pointer-events: none;
             z-index: 1;
             position: absolute;
             top: 10vh; }
@@ -144,26 +147,34 @@ html {
               font-family: "Helvetica Neue";
               font-size: 1.8rem;
               letter-spacing: 2px; }
-          .body .main .section--2 .container--project .container--content .container--img, .body .main .section--3 .container--project .container--content .container--img, .body .main .section--4 .container--project .container--content .container--img, .body .main .section--5 .container--project .container--content .container--img {
-            position: absolute;
-            right: 0;
-            z-index: -10;
-            overflow: hidden;
-            width: 66%;
-            height: 60vh; }
-            .body .main .section--2 .container--project .container--content .container--img .project__link .project__img, .body .main .section--3 .container--project .container--content .container--img .project__link .project__img, .body .main .section--4 .container--project .container--content .container--img .project__link .project__img, .body .main .section--5 .container--project .container--content .container--img .project__link .project__img {
+          .body .main .section--2 .container--project .container--content .project__illu, .body .main .section--3 .container--project .container--content .project__illu, .body .main .section--4 .container--project .container--content .project__illu, .body .main .section--5 .container--project .container--content .project__illu {
+            position: relative;
+            width: 100%; }
+            .body .main .section--2 .container--project .container--content .project__illu .project__link, .body .main .section--3 .container--project .container--content .project__illu .project__link, .body .main .section--4 .container--project .container--content .project__illu .project__link, .body .main .section--5 .container--project .container--content .project__illu .project__link {
               position: absolute;
-              max-width: 100%;
-              max-height: 100%;
-              z-index: 0; }
-            .body .main .section--2 .container--project .container--content .container--img .img__calque, .body .main .section--3 .container--project .container--content .container--img .img__calque, .body .main .section--4 .container--project .container--content .container--img .img__calque, .body .main .section--5 .container--project .container--content .container--img .img__calque {
-              position: absolute;
-              pointer-events: none;
-              width: 100%;
-              height: 100%;
-              z-index: 1;
-              background: #151515;
-              background: linear-gradient(90deg, #151515 0%, rgba(21, 21, 21, 0.97) 6%, rgba(21, 21, 21, 0.93) 14%, rgba(21, 21, 21, 0.73) 29%, rgba(59, 59, 59, 0.67) 45%, rgba(255, 255, 255, 0) 100%); }
+              width: 66%;
+              height: 60vh;
+              right: 0; }
+              .body .main .section--2 .container--project .container--content .project__illu .project__link .container--img, .body .main .section--3 .container--project .container--content .project__illu .project__link .container--img, .body .main .section--4 .container--project .container--content .project__illu .project__link .container--img, .body .main .section--5 .container--project .container--content .project__illu .project__link .container--img {
+                position: absolute;
+                right: 0;
+                z-index: -10;
+                overflow: hidden;
+                width: 100%;
+                height: 60vh; }
+                .body .main .section--2 .container--project .container--content .project__illu .project__link .container--img .project__img, .body .main .section--3 .container--project .container--content .project__illu .project__link .container--img .project__img, .body .main .section--4 .container--project .container--content .project__illu .project__link .container--img .project__img, .body .main .section--5 .container--project .container--content .project__illu .project__link .container--img .project__img {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  z-index: 0; }
+                .body .main .section--2 .container--project .container--content .project__illu .project__link .container--img .img__calque, .body .main .section--3 .container--project .container--content .project__illu .project__link .container--img .img__calque, .body .main .section--4 .container--project .container--content .project__illu .project__link .container--img .img__calque, .body .main .section--5 .container--project .container--content .project__illu .project__link .container--img .img__calque {
+                  position: absolute;
+                  pointer-events: none;
+                  width: 100%;
+                  height: 100%;
+                  z-index: 1;
+                  background: #151515;
+                  background: linear-gradient(90deg, #151515 0%, rgba(21, 21, 21, 0.97) 6%, rgba(21, 21, 21, 0.93) 14%, rgba(21, 21, 21, 0.73) 29%, rgba(59, 59, 59, 0.67) 45%, rgba(255, 255, 255, 0) 100%); }
       .body .main .section--2 .container--pagination, .body .main .section--3 .container--pagination, .body .main .section--4 .container--pagination, .body .main .section--5 .container--pagination {
         position: absolute;
         transform: rotate(-90deg);
@@ -211,7 +222,8 @@ html {
       width: 20%;
       display: flex;
       justify-content: space-between;
-      align-items: baseline; }
+      align-items: baseline;
+      text-decoration: none; }
       .body .main--about .container--about .about__resume .resume__dl .resume__title {
         margin-top: 24px;
         font-family: "Helvetica Neue";
@@ -340,6 +352,10 @@ html {
         display: flex;
         justify-content: space-between; }
 
+/* 
+////////////
+////////////
+*/
 @media only screen and (max-width: 768px) {
   .body .cursor {
     display: none; }
@@ -416,13 +432,26 @@ html {
         width: 32px;
         height: 36px; }
   .body .main--about .container--competencies .language {
-    width: 40%; }
+    width: 50%; }
+    .body .main--about .container--competencies .language .language__list {
+      width: 100%; }
+      .body .main--about .container--competencies .language .language__list .language__groupe {
+        width: 100%; }
+        .body .main--about .container--competencies .language .language__list .language__groupe .language__country {
+          width: 50%; }
   .body .main--about .container--formation .formation__content .formation__date {
     margin-top: 8px; }
   .body .footer .menu .menu--left {
     width: 30%; } }
+/* 
+////////////
+////////////
+*/
 @media only screen and (max-width: 414px) {
   * {
-    color: greenyellow; } }
+    color: greenyellow; }
+
+  .body .header .menu .menu--right {
+    width: 40%; } }
 
 /*# sourceMappingURL=style.css.map */

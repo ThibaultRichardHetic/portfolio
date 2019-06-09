@@ -20,9 +20,11 @@ class Cursor
   followCursorIn() {
     this.$cursor_in.style.left = (this.cursorX + 14 - 18) + 'px' 
     this.$cursor_in.style.top = (this.cursorY + 14 - 18) + 'px' 
+    this.$cursor_in.style.display = 'block'
   }
 
   followCursorOut() {
+    this.$cursor.style.display = 'block'
     this.$cursor.style.left = (this.cursorX - 18) + 'px' 
     this.$cursor.style.top = (this.cursorY - 18) + 'px' 
   }
