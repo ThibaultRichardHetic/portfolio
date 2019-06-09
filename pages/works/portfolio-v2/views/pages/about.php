@@ -1,5 +1,4 @@
 <?php require('../views/partials/header.php'); ?>
-<?php require('../views/partials/background.php'); ?>
 
   <main class="main--about">
     <div class="container--about">

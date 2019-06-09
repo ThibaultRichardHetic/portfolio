@@ -1,3 +1,0 @@
-<div class="background">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.98 20.58"><defs><style>.cls-1{fill:none;stroke:#C90100;stroke-miterlimit:10;width:10%;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_2-2" data-name="Calque 2"><path class="cls-1" d="M37.54.24a21,21,0,0,1-8.39,8.53c-5.6,2.94-9.73,1.28-16.49,3.5a30.13,30.13,0,0,0-12.3,8"/></g></g></svg>
-</div>
