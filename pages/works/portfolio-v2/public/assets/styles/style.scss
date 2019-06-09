@@ -64,10 +64,11 @@ $cursor-inside-size: 8px;
   .header
   {
     z-index: 2;
-    margin-top: 40px;
+    padding-top: 40px;
     position: fixed;
     width: 80%;
     left: 10%;
+    background-color: $background-color;
     .menu
     {
       display: flex;
@@ -442,10 +443,14 @@ $cursor-inside-size: 8px;
   }
   .footer
   {
+    z-index: 2;
     position: fixed;
     width: 80%;
     left: 10%;
-    bottom: calc(0% + 40px);
+    // bottom: calc(0% + 40px);
+    bottom: 0%;
+    padding-bottom: 40px;
+    background-color: $background-color;
     .container--scroll
     {
       width: 12px;
@@ -459,7 +464,6 @@ $cursor-inside-size: 8px;
         background-color: $white;
         opacity: 0.4;
       }
-
       @keyframes scroll_invitation
       {
         0%{
@@ -590,23 +594,30 @@ and (max-width : 768px)
                 top: 54vh;
               }
             }
-            .container--img
+            .project__illu
             {
-              position: absolute;
               max-width: 100%;
-              left: 20%;
-              top: 20vh;
+              height: 256px;
               .project__link
               {
-                .project__img
+                left: 20%;
+                top: 10vh;
+                max-width: 100%;
+                max-height: 100%;
+                .container--img
                 {
-                  max-width: 100%;
+                  max-height: 100%;
+                  .project__img
+                  {
+                    max-height: 100%;
+                    max-width: 100%;
+                  }
+                  .img__calque
+                  {
+                    width: 100%;
+                    height: 256px;
+                  }
                 }
-              }
-              .img__calque
-              {
-                width: 100%;
-                height: 256px;
               }
             }
           }
@@ -667,7 +678,6 @@ and (max-width : 768px)
       }
       .container--competencies
       {
-
         .skill
         {
           width: 60%;
@@ -734,11 +744,6 @@ and (max-width : 768px)
 @media only screen 
 and (max-width : 414px)
 {
-  *
-  {
-    color: greenyellow;
-  }
-
   .body
   {
     .header
@@ -748,6 +753,200 @@ and (max-width : 414px)
         .menu--right
         {
           width: 40%;
+        }
+      }
+    }
+    .main
+    {
+      .section--1
+      {
+        .container--title
+        {
+          height: 30vh;
+          @keyframes wave
+          {
+            0%{
+              transform: translateY(-10vh);
+            }
+            100%{
+              transform: translateY(13vh);
+            }
+          }
+          .title
+          {
+
+            .title__wave
+            {
+              transform: translateY(-10vh);
+            }
+          }
+        }
+      }
+      .section--2, .section--3, .section--4, .section--5
+      {
+        position: relative;
+        .container--project
+        {
+          padding-top: 5vh;
+          .container--content
+          {
+            position: relative;
+            display: block;
+            .container--text
+            {
+              position: relative;
+              .project__title
+              {
+                margin-top: 16px;
+                font-size: $responsive-title;
+              }
+              .project__date
+              {
+                margin-top: 16px;
+              }
+              .project__description
+              {
+                width: 80%;
+                position: absolute;
+                top: 44vh;
+              }
+              .project__tech
+              {
+                position: absolute;
+                top: 60vh;
+                width: 80%;
+              }
+            }
+            .project__illu
+            {
+              width: 100%;
+              height: 28vh;
+              .project__link
+              {
+                width: 100%;
+                left: 0%;
+                .container--img
+                {
+                  width: 100%;
+                  .project__img
+                  {
+                    width: 100%;
+                  }
+                  .img__calque
+                  {
+                    width: 100%;
+                    height: 256px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .container--pagination
+        {
+          position: absolute;
+          right: 0%;
+          bottom: 25%;
+          .pagination__current
+          {
+            color: $red;
+            font-family: $typo-second;
+            font-weight: bold;
+            font-size: $pagination-text-size;
+          }
+          .pagination__line
+          {
+            height: 2px;
+            background-color: $white;
+            width: 64px;
+          }
+          .pagination__total
+          {
+            font-family: $typo-second;
+            color: $white;
+            font-weight: bold;
+            font-size: $pagination-text-size;
+          }
+        }
+      }  
+    }
+    .main--about
+    {
+      .container--about
+      {
+        .about__title
+        {
+          width: 100%;
+        }
+        .about__info
+        {
+          width: 100%;
+        }
+        .about__resume
+        {
+          .resume__dl
+          {
+            width: 60%;
+          }
+        }
+      }
+      .container--competencies
+      {
+        flex-direction: column;
+        .skill
+        {
+          width: 100%;
+          .skill__icons
+          {
+            width: 80%;
+            .skill__icon
+            {
+              width: 32px;
+              height: 36px;
+            }
+          }
+        }
+        .language
+        {
+          margin-top: 56px;
+          width: 100%;
+          .language__list
+          {
+            width: 100%;
+            .language__groupe
+            {
+              width: 100%;
+              .language__country
+              {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+      .container--formation
+      {
+        margin-top: 56px;
+        margin-bottom: 100px;
+      }
+    }
+    .footer
+    {
+      bottom: 0%;
+      .container--scroll
+      {
+        display: none;
+      }
+      .menu
+      {
+        flex-direction: column;
+        .menu--left
+        {
+          flex-direction: column;
+        }
+        .menu__content
+        {
+          margin-top: 8px;
         }
       }
     }
