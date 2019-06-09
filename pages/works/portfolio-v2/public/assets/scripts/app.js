@@ -9,25 +9,28 @@ class Cursor
     // Get mouse position
     window.addEventListener('mousemove', (e) =>
     {
+      this.scroll = pageYOffset
       this.cursorX = e.clientX
       this.cursorY = e.clientY
       this.followCursorIn()
       this.followCursorOut()
     })
+    
   }
 
   // Made marker img follow the mouse 
   followCursorIn() {
     this.$cursor_in.style.left = (this.cursorX + 14 - 18) + 'px' 
-    this.$cursor_in.style.top = (this.cursorY + 14 - 18) + 'px' 
+    this.$cursor_in.style.top = (this.cursorY + 14 - 18 + this.scroll) + 'px' 
     this.$cursor_in.style.display = 'block'
   }
 
   followCursorOut() {
     this.$cursor.style.display = 'block'
     this.$cursor.style.left = (this.cursorX - 18) + 'px' 
-    this.$cursor.style.top = (this.cursorY - 18) + 'px' 
+    this.$cursor.style.top = (this.cursorY - 18 + this.scroll) + 'px' 
   }
+
 }
 
 // Class for wave effect in the title
