@@ -626,6 +626,59 @@ and (max-width : 768px)
         }
       }  
     }
+    .main--about
+    {
+      .container--about
+      {
+        .about__title
+        {
+          font-size: $responsive-title;
+          width: 80%;
+        }
+        .about__info
+        {
+          width: 80%;
+        }
+        .about__resume
+        {
+          .resume__dl
+          {
+            width: 30%;
+          }
+        }
+      }
+      .container--competencies
+      {
+
+        .skill
+        {
+          width: 60%;
+          .skill__icons
+          {
+            width: 80%;
+            .skill__icon
+            {
+              width: 32px;
+              height: 36px;
+            }
+          }
+        }
+        .language
+        {
+          width: 40%;
+        }
+      }
+      .container--formation
+      {
+        .formation__content
+        {
+          .formation__date
+          {
+            margin-top: 8px;
+          }
+        }
+      }
+    }
     .footer
     {
       .menu
