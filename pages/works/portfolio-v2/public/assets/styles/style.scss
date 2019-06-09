@@ -1,12 +1,21 @@
 // Set global values
 *{   
-  // cursor: none;
+  cursor: none;
 }
 *:hover
 {
-  // cursor: none;
+  cursor: none;
 }
 html { font-size: 62.5%; } 
+
+@font-face { 
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.ttf') format('ttf');
+}
+@font-face { 
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn-Regular.ttf') format('ttf');
+}
 
 // Defines variables 
 
@@ -20,8 +29,8 @@ $responsive-title: 2.6rem;
 $title-text-size: 3.2rem; 
 $project-text-size: 8.6rem;
 
-$typo-current: 'Helvetica Neue';
-$typo-second: 'Montserrat';
+$typo-current: 'Ubuntu';
+$typo-title: 'Vollkorn';
 $typo-weight: 300;
 $cursor-size: 36px;
 $cursor-inside-size: 8px;
@@ -76,7 +85,7 @@ $cursor-inside-size: 8px;
         .menu__link
         {
           color: $white;
-          font-family: $typo-current;
+          font-family: $typo-title;
           font-size: $menu-text-size;
           text-decoration: none;
           font-weight: $typo-weight;
@@ -128,7 +137,7 @@ $cursor-inside-size: 8px;
         }
         .title
         {
-          font-family: $typo-current;
+          font-family: $typo-title;
           color: $white;
           text-align: center;
           font-size: $title-text-size;
@@ -183,7 +192,7 @@ $cursor-inside-size: 8px;
               margin-top: 34px;
               color: $white;
               font-weight: $typo-weight;
-              font-family: $typo-current;
+              font-family: $typo-title;
               font-size: $project-text-size;
               letter-spacing: 4.5px;
             }
@@ -203,6 +212,7 @@ $cursor-inside-size: 8px;
               font-weight: $typo-weight;
               font-family: $typo-current;
               font-size: $menu-text-size;
+              line-height: 150%;
               letter-spacing: 2px;
               width: 35%;
             }
@@ -270,7 +280,7 @@ $cursor-inside-size: 8px;
         .pagination__current
         {
           color: $red;
-          font-family: $typo-second;
+          font-family: $typo-current;
           font-weight: bold;
           font-size: $pagination-text-size;
         }
@@ -282,7 +292,7 @@ $cursor-inside-size: 8px;
         }
         .pagination__total
         {
-          font-family: $typo-second;
+          font-family: $typo-current;
           color: $white;
           font-weight: bold;
           font-size: $pagination-text-size;
@@ -302,7 +312,7 @@ $cursor-inside-size: 8px;
         width: 60%;
         color: $white;
         font-weight: $typo-weight;
-        font-family: $typo-current;
+        font-family: $typo-title;
         font-size: $project-text-size;
         letter-spacing: 4.5px;
       }
@@ -316,6 +326,7 @@ $cursor-inside-size: 8px;
         font-size: $menu-text-size;
         letter-spacing: 2px;
         width: 45%;
+        line-height: 150%;
       }
       .about__resume
       {
@@ -358,7 +369,7 @@ $cursor-inside-size: 8px;
         .skill__title
         {
           color: $white;
-          font-family: $typo-current;
+          font-family:  $typo-title;
           font-size: $title-text-size;
         }
         .skill__icons
@@ -380,7 +391,7 @@ $cursor-inside-size: 8px;
         .language__title
         {
           color: $white;
-          font-family: $typo-current;
+          font-family: $typo-title;
           font-size: $title-text-size;
         }
         .language__list
@@ -417,7 +428,7 @@ $cursor-inside-size: 8px;
       .formation__title
       {
         color: $white;
-        font-family: $typo-current;
+        font-family: $typo-title;
         font-size: $title-text-size;
         margin-bottom: 34px;
       }
@@ -634,7 +645,7 @@ and (max-width : 768px)
           .pagination__current
           {
             color: $red;
-            font-family: $typo-second;
+            font-family: $typo-title;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
@@ -646,7 +657,7 @@ and (max-width : 768px)
           }
           .pagination__total
           {
-            font-family: $typo-second;
+            font-family: $typo-title;
             color: $white;
             font-weight: bold;
             font-size: $pagination-text-size;
@@ -849,7 +860,7 @@ and (max-width : 414px)
           .pagination__current
           {
             color: $red;
-            font-family: $typo-second;
+            font-family: $typo-title;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
@@ -861,7 +872,7 @@ and (max-width : 414px)
           }
           .pagination__total
           {
-            font-family: $typo-second;
+            font-family: $typo-title;
             color: $white;
             font-weight: bold;
             font-size: $pagination-text-size;

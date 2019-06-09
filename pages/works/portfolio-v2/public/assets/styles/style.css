@@ -1,6 +1,18 @@
+* {
+  cursor: none; }
+
+*:hover {
+  cursor: none; }
+
 html {
   font-size: 62.5%; }
 
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/Ubuntu-Regular.ttf") format("ttf"); }
+@font-face {
+  font-family: 'Vollkorn';
+  src: url("../fonts/Vollkorn-Regular.ttf") format("ttf"); }
 .body {
   background-color: #151515;
   background-image: url(../images/bg-wave.svg);
@@ -40,7 +52,7 @@ html {
       justify-content: space-between; }
       .body .header .menu .menu__content .menu__link {
         color: #FFF;
-        font-family: "Helvetica Neue";
+        font-family: "Vollkorn";
         font-size: 1.8rem;
         text-decoration: none;
         font-weight: 300; }
@@ -74,7 +86,7 @@ html {
   100% {
     transform: translateY(13vh); } }
         .body .main .section--1 .container--title .title {
-          font-family: "Helvetica Neue";
+          font-family: "Vollkorn";
           color: #FFF;
           text-align: center;
           font-size: 3.2rem; }
@@ -104,7 +116,7 @@ html {
             position: absolute;
             top: 10vh; }
             .body .main .section--2 .container--project .container--content .container--text .project__name, .body .main .section--3 .container--project .container--content .container--text .project__name, .body .main .section--4 .container--project .container--content .container--text .project__name, .body .main .section--5 .container--project .container--content .container--text .project__name {
-              font-family: "Helvetica Neue";
+              font-family: "Ubuntu";
               font-size: 1.8rem;
               color: #FFF;
               opacity: 0.3;
@@ -115,13 +127,13 @@ html {
               margin-top: 34px;
               color: #FFF;
               font-weight: 300;
-              font-family: "Helvetica Neue";
+              font-family: "Vollkorn";
               font-size: 8.6rem;
               letter-spacing: 4.5px; }
             .body .main .section--2 .container--project .container--content .container--text .project__date, .body .main .section--3 .container--project .container--content .container--text .project__date, .body .main .section--4 .container--project .container--content .container--text .project__date, .body .main .section--5 .container--project .container--content .container--text .project__date {
               color: #C90100;
               font-weight: 300;
-              font-family: "Helvetica Neue";
+              font-family: "Ubuntu";
               font-size: 1.8rem;
               letter-spacing: 4.5px; }
             .body .main .section--2 .container--project .container--content .container--text .project__description, .body .main .section--3 .container--project .container--content .container--text .project__description, .body .main .section--4 .container--project .container--content .container--text .project__description, .body .main .section--5 .container--project .container--content .container--text .project__description {
@@ -129,8 +141,9 @@ html {
               color: #FFF;
               opacity: 0.8;
               font-weight: 300;
-              font-family: "Helvetica Neue";
+              font-family: "Ubuntu";
               font-size: 1.8rem;
+              line-height: 150%;
               letter-spacing: 2px;
               width: 35%; }
             .body .main .section--2 .container--project .container--content .container--text .project__tech, .body .main .section--3 .container--project .container--content .container--text .project__tech, .body .main .section--4 .container--project .container--content .container--text .project__tech, .body .main .section--5 .container--project .container--content .container--text .project__tech {
@@ -138,7 +151,7 @@ html {
               color: #FFF;
               opacity: 0.8;
               font-weight: 300;
-              font-family: "Helvetica Neue";
+              font-family: "Ubuntu";
               font-size: 1.8rem;
               letter-spacing: 2px; }
           .body .main .section--2 .container--project .container--content .project__illu, .body .main .section--3 .container--project .container--content .project__illu, .body .main .section--4 .container--project .container--content .project__illu, .body .main .section--5 .container--project .container--content .project__illu {
@@ -180,7 +193,7 @@ html {
         align-items: center; }
         .body .main .section--2 .container--pagination .pagination__current, .body .main .section--3 .container--pagination .pagination__current, .body .main .section--4 .container--pagination .pagination__current, .body .main .section--5 .container--pagination .pagination__current {
           color: #C90100;
-          font-family: "Montserrat";
+          font-family: "Ubuntu";
           font-weight: bold;
           font-size: 2.2rem; }
         .body .main .section--2 .container--pagination .pagination__line, .body .main .section--3 .container--pagination .pagination__line, .body .main .section--4 .container--pagination .pagination__line, .body .main .section--5 .container--pagination .pagination__line {
@@ -188,7 +201,7 @@ html {
           background-color: #FFF;
           width: 64px; }
         .body .main .section--2 .container--pagination .pagination__total, .body .main .section--3 .container--pagination .pagination__total, .body .main .section--4 .container--pagination .pagination__total, .body .main .section--5 .container--pagination .pagination__total {
-          font-family: "Montserrat";
+          font-family: "Ubuntu";
           color: #FFF;
           font-weight: bold;
           font-size: 2.2rem; }
@@ -200,7 +213,7 @@ html {
       width: 60%;
       color: #FFF;
       font-weight: 300;
-      font-family: "Helvetica Neue";
+      font-family: "Vollkorn";
       font-size: 8.6rem;
       letter-spacing: 4.5px; }
     .body .main--about .container--about .about__info {
@@ -208,10 +221,11 @@ html {
       color: #FFF;
       opacity: 0.8;
       font-weight: 300;
-      font-family: "Helvetica Neue";
+      font-family: "Ubuntu";
       font-size: 1.8rem;
       letter-spacing: 2px;
-      width: 45%; }
+      width: 45%;
+      line-height: 150%; }
     .body .main--about .container--about .about__resume .resume__dl {
       width: 20%;
       display: flex;
@@ -220,7 +234,7 @@ html {
       text-decoration: none; }
       .body .main--about .container--about .about__resume .resume__dl .resume__title {
         margin-top: 24px;
-        font-family: "Helvetica Neue";
+        font-family: "Ubuntu";
         font-size: 1.8rem;
         color: #FFF;
         opacity: 0.3;
@@ -240,7 +254,7 @@ html {
       width: 50%; }
       .body .main--about .container--competencies .skill .skill__title {
         color: #FFF;
-        font-family: "Helvetica Neue";
+        font-family: "Vollkorn";
         font-size: 3.2rem; }
       .body .main--about .container--competencies .skill .skill__icons {
         margin-top: 34px;
@@ -254,7 +268,7 @@ html {
       width: 50%; }
       .body .main--about .container--competencies .language .language__title {
         color: #FFF;
-        font-family: "Helvetica Neue";
+        font-family: "Vollkorn";
         font-size: 3.2rem; }
       .body .main--about .container--competencies .language .language__list {
         margin-top: 34px; }
@@ -265,12 +279,12 @@ html {
           .body .main--about .container--competencies .language .language__list .language__groupe .language__country {
             color: #FFF;
             width: 25%;
-            font-family: "Helvetica Neue";
+            font-family: "Ubuntu";
             font-size: 1.8rem; }
           .body .main--about .container--competencies .language .language__list .language__groupe .language__level {
             color: #FFF;
             opacity: 0.3;
-            font-family: "Helvetica Neue";
+            font-family: "Ubuntu";
             font-size: 1.8rem; }
   .body .main--about .container--formation {
     width: 80%;
@@ -278,18 +292,18 @@ html {
     margin-bottom: 10vh; }
     .body .main--about .container--formation .formation__title {
       color: #FFF;
-      font-family: "Helvetica Neue";
+      font-family: "Vollkorn";
       font-size: 3.2rem;
       margin-bottom: 34px; }
     .body .main--about .container--formation .formation__content {
       margin-bottom: 16px; }
       .body .main--about .container--formation .formation__content .formation__description {
         color: #FFF;
-        font-family: "Helvetica Neue";
+        font-family: "Ubuntu";
         font-size: 1.8rem; }
       .body .main--about .container--formation .formation__content .formation__date {
         color: #C90100;
-        font-family: "Helvetica Neue";
+        font-family: "Ubuntu";
         font-size: 1.8rem; }
   .body .footer {
     z-index: 2;
@@ -331,7 +345,7 @@ html {
       display: flex;
       justify-content: space-between; }
       .body .footer .menu .menu__content .menu__link {
-        font-family: "Helvetica Neue";
+        font-family: "Ubuntu";
         text-decoration: none;
         font-size: 1.8rem;
         font-weight: 300; }
@@ -409,7 +423,7 @@ html {
       align-items: center; }
       .body .main .section--2 .container--pagination .pagination__current, .body .main .section--3 .container--pagination .pagination__current, .body .main .section--4 .container--pagination .pagination__current, .body .main .section--5 .container--pagination .pagination__current {
         color: #C90100;
-        font-family: "Montserrat";
+        font-family: "Vollkorn";
         font-weight: bold;
         font-size: 2.2rem; }
       .body .main .section--2 .container--pagination .pagination__line, .body .main .section--3 .container--pagination .pagination__line, .body .main .section--4 .container--pagination .pagination__line, .body .main .section--5 .container--pagination .pagination__line {
@@ -417,7 +431,7 @@ html {
         background-color: #FFF;
         width: 64px; }
       .body .main .section--2 .container--pagination .pagination__total, .body .main .section--3 .container--pagination .pagination__total, .body .main .section--4 .container--pagination .pagination__total, .body .main .section--5 .container--pagination .pagination__total {
-        font-family: "Montserrat";
+        font-family: "Vollkorn";
         color: #FFF;
         font-weight: bold;
         font-size: 2.2rem; }
@@ -504,7 +518,7 @@ html {
       bottom: 25%; }
       .body .main .section--2 .container--pagination .pagination__current, .body .main .section--3 .container--pagination .pagination__current, .body .main .section--4 .container--pagination .pagination__current, .body .main .section--5 .container--pagination .pagination__current {
         color: #C90100;
-        font-family: "Montserrat";
+        font-family: "Vollkorn";
         font-weight: bold;
         font-size: 2.2rem; }
       .body .main .section--2 .container--pagination .pagination__line, .body .main .section--3 .container--pagination .pagination__line, .body .main .section--4 .container--pagination .pagination__line, .body .main .section--5 .container--pagination .pagination__line {
@@ -512,7 +526,7 @@ html {
         background-color: #FFF;
         width: 64px; }
       .body .main .section--2 .container--pagination .pagination__total, .body .main .section--3 .container--pagination .pagination__total, .body .main .section--4 .container--pagination .pagination__total, .body .main .section--5 .container--pagination .pagination__total {
-        font-family: "Montserrat";
+        font-family: "Vollkorn";
         color: #FFF;
         font-weight: bold;
         font-size: 2.2rem; }
