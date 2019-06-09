@@ -22,8 +22,9 @@
         </div>
       </div>
       <div class="menu--right">
-        <div class="menu__content">
+        <div class="menu__content js-lala">
           <a class="menu__link" href="#">Works.</a>
+          <div class="menu__underline js-lolo"></div>
         </div>
         <div class="menu__content">
           <a class="menu__link" href="#">About.</a>

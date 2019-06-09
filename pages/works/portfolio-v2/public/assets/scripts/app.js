@@ -39,7 +39,7 @@ class Wave
   }
 
   waveCall()
-  {    
+  {
     (function theLoop (i) {
       setTimeout(function ()
       {
@@ -61,11 +61,43 @@ class Wave
 
 }
 
+class NavHover
+{
+  constructor()
+  {
+    this.$lala = document.querySelector('.js-lala')
+    this.$lolo = document.querySelector('.js-lolo')
+
+    this.$lala.addEventListener('mouseover', () =>
+    {
+      this.mouseIn()
+    })
+
+    this.$lala.addEventListener('mouseout', () =>
+    {
+      this.mouseOut()
+    })
+
+  }
+
+  mouseIn()
+  {
+    this.$lolo.className = 'menu__underline--active'
+  }
+
+  mouseOut()
+  {
+    this.$lolo.className = 'menu__underline'
+  }
+}
+
 const cursor = new Cursor()
 const wave = new Wave()
+const navHover = new NavHover()
 
-window.onload = function () {
-}
+// window.onload = function () {
+
+// }
 
 
 new fullpage('#fullpage', {
@@ -75,3 +107,9 @@ new fullpage('#fullpage', {
   // parallax: true,
 
 });
+
+
+
+
+
+

@@ -56,7 +56,7 @@
             <p class="project__tech">Techs used : HTML, CSS, JS, PHP, Secure API</p>
           </div>
           <div class="container--img">
-            <a class="project__link" href="#">
+            <a class="project__link" href="http://richard-thibault.com/pages/works/crehappy/" target="_blank">
               <img class="project__img" src="<?= URL ?>/assets/images/crehappy.jpg" alt="crehappy web site">
             </a>
             <div class="img__calque">
@@ -83,7 +83,7 @@
             <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
           </div>
           <div class="container--img">
-            <a class="project__link" href="#">
+            <a class="project__link" href="#" target="_blank">
               <img class="project__img" src="<?= URL ?>/assets/images/pet-abc.jpg" alt="pet abc web site">
             </a>
             <div class="img__calque">
@@ -105,12 +105,12 @@
             <h3 class="project__title">Type Travel</h3>
             <p class="project__date">2018</p>
             <p class="project__description">
-              School project, where i have to create a game from scratch. 
+              School project, where i have to create a game from scratch, for the first real time i use Js and made this project in 4 days.
             </p>
             <p class="project__tech">Techs used : HTML, CSS, JS</p>
           </div>
           <div class="container--img">
-            <a class="project__link" href="#">
+            <a class="project__link" href="#" target="_blank">
               <img class="project__img" src="<?= URL ?>/assets/images/type-travel.jpg" alt="type travel web site">
             </a>
             <div class="img__calque">

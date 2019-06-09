@@ -16,7 +16,7 @@ html {
     height: 36px;
     border: solid #C90100 1px;
     border-radius: 100%;
-    z-index: 10000000000; }
+    z-index: 10; }
   .body .cursor--in {
     pointer-events: none;
     position: absolute;
@@ -24,12 +24,14 @@ html {
     height: 8px;
     background-color: #FFF;
     border-radius: 100%;
-    z-index: 10000000000; }
+    z-index: 10; }
   .body .header {
+    z-index: 2;
     margin-top: 40px;
     position: fixed;
     width: 80%;
-    left: 10%; }
+    left: 10%;
+    border: green 3px solid; }
     .body .header .menu {
       display: flex;
       justify-content: space-between; }
@@ -39,8 +41,18 @@ html {
         font-size: 1.8rem;
         text-decoration: none;
         font-weight: 300; }
+      .body .header .menu .menu__content .menu__underline {
+        background-color: #C90100;
+        height: 2px;
+        width: 0%;
+        transition: all 0.4s; }
+      .body .header .menu .menu__content .menu__underline--active {
+        background-color: #C90100;
+        height: 2px;
+        transition: all 0.4s;
+        width: 100%; }
       .body .header .menu .menu--right {
-        width: 10%;
+        width: 15%;
         display: flex;
         justify-content: space-between; }
   .body .main {
@@ -126,7 +138,6 @@ html {
               font-size: 1.8rem;
               letter-spacing: 2px; }
           .body .main .section--2 .container--project .container--content .container--img, .body .main .section--3 .container--project .container--content .container--img, .body .main .section--4 .container--project .container--content .container--img, .body .main .section--5 .container--project .container--content .container--img {
-            pointer-events: none;
             position: absolute;
             right: 0;
             z-index: -10;
@@ -139,8 +150,8 @@ html {
               max-height: 100%;
               z-index: 0; }
             .body .main .section--2 .container--project .container--content .container--img .img__calque, .body .main .section--3 .container--project .container--content .container--img .img__calque, .body .main .section--4 .container--project .container--content .container--img .img__calque, .body .main .section--5 .container--project .container--content .container--img .img__calque {
-              pointer-events: none;
               position: absolute;
+              pointer-events: none;
               width: 100%;
               height: 100%;
               z-index: 1;
