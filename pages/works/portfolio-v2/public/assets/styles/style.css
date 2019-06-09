@@ -340,4 +340,71 @@ html {
         display: flex;
         justify-content: space-between; }
 
+@media only screen and (max-width: 768px) {
+  .body .cursor {
+    display: none; }
+  .body .cursor--in {
+    display: none; }
+  .body .header .menu .menu--right {
+    width: 30%; }
+  .body .main .section--2, .body .main .section--3, .body .main .section--4, .body .main .section--5 {
+    position: relative; }
+    .body .main .section--2 .container--project, .body .main .section--3 .container--project, .body .main .section--4 .container--project, .body .main .section--5 .container--project {
+      padding-top: 5vh; }
+      .body .main .section--2 .container--project .container--content, .body .main .section--3 .container--project .container--content, .body .main .section--4 .container--project .container--content, .body .main .section--5 .container--project .container--content {
+        position: relative;
+        display: block; }
+        .body .main .section--2 .container--project .container--content .container--text, .body .main .section--3 .container--project .container--content .container--text, .body .main .section--4 .container--project .container--content .container--text, .body .main .section--5 .container--project .container--content .container--text {
+          position: relative; }
+          .body .main .section--2 .container--project .container--content .container--text .project__title, .body .main .section--3 .container--project .container--content .container--text .project__title, .body .main .section--4 .container--project .container--content .container--text .project__title, .body .main .section--5 .container--project .container--content .container--text .project__title {
+            margin-top: 16px;
+            font-size: 2.6rem; }
+          .body .main .section--2 .container--project .container--content .container--text .project__date, .body .main .section--3 .container--project .container--content .container--text .project__date, .body .main .section--4 .container--project .container--content .container--text .project__date, .body .main .section--5 .container--project .container--content .container--text .project__date {
+            margin-top: 16px; }
+          .body .main .section--2 .container--project .container--content .container--text .project__description, .body .main .section--3 .container--project .container--content .container--text .project__description, .body .main .section--4 .container--project .container--content .container--text .project__description, .body .main .section--5 .container--project .container--content .container--text .project__description {
+            width: 90%;
+            position: absolute;
+            top: 44vh; }
+          .body .main .section--2 .container--project .container--content .container--text .project__tech, .body .main .section--3 .container--project .container--content .container--text .project__tech, .body .main .section--4 .container--project .container--content .container--text .project__tech, .body .main .section--5 .container--project .container--content .container--text .project__tech {
+            position: absolute;
+            top: 54vh; }
+        .body .main .section--2 .container--project .container--content .container--img, .body .main .section--3 .container--project .container--content .container--img, .body .main .section--4 .container--project .container--content .container--img, .body .main .section--5 .container--project .container--content .container--img {
+          position: absolute;
+          max-width: 100%;
+          left: 20%;
+          top: 20vh; }
+          .body .main .section--2 .container--project .container--content .container--img .project__link .project__img, .body .main .section--3 .container--project .container--content .container--img .project__link .project__img, .body .main .section--4 .container--project .container--content .container--img .project__link .project__img, .body .main .section--5 .container--project .container--content .container--img .project__link .project__img {
+            max-width: 100%; }
+          .body .main .section--2 .container--project .container--content .container--img .img__calque, .body .main .section--3 .container--project .container--content .container--img .img__calque, .body .main .section--4 .container--project .container--content .container--img .img__calque, .body .main .section--5 .container--project .container--content .container--img .img__calque {
+            width: 100%;
+            height: 256px; }
+    .body .main .section--2 .container--pagination, .body .main .section--3 .container--pagination, .body .main .section--4 .container--pagination, .body .main .section--5 .container--pagination {
+      position: absolute;
+      transform: rotate(-90deg);
+      right: 0%;
+      bottom: 60%;
+      display: flex;
+      width: 150px;
+      justify-content: space-between;
+      align-items: center; }
+      .body .main .section--2 .container--pagination .pagination__current, .body .main .section--3 .container--pagination .pagination__current, .body .main .section--4 .container--pagination .pagination__current, .body .main .section--5 .container--pagination .pagination__current {
+        color: #C90100;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 2.2rem; }
+      .body .main .section--2 .container--pagination .pagination__line, .body .main .section--3 .container--pagination .pagination__line, .body .main .section--4 .container--pagination .pagination__line, .body .main .section--5 .container--pagination .pagination__line {
+        height: 2px;
+        background-color: #FFF;
+        width: 64px; }
+      .body .main .section--2 .container--pagination .pagination__total, .body .main .section--3 .container--pagination .pagination__total, .body .main .section--4 .container--pagination .pagination__total, .body .main .section--5 .container--pagination .pagination__total {
+        font-family: "Montserrat";
+        color: #FFF;
+        font-weight: bold;
+        font-size: 2.2rem; }
+  .body .footer .menu .menu--left {
+    width: 30%; } }
+@media only screen and (max-width: 414px) {
+  * {
+    color: greenyellow; } }
+
 /*# sourceMappingURL=style.css.map */

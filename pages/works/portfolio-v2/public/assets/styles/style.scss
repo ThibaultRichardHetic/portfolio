@@ -16,6 +16,7 @@ $white: #FFF;
 
 $menu-text-size: 1.8rem;
 $pagination-text-size: 2.2rem;
+$responsive-title: 2.6rem;
 $title-text-size: 3.2rem; 
 $project-text-size: 8.6rem;
 
@@ -505,5 +506,146 @@ $cursor-inside-size: 8px;
         justify-content: space-between;
       }
     }
+  }
+}
+
+// Responsive
+
+// Ipad
+
+@media only screen 
+and (max-width : 768px)
+{
+  .body
+  {
+    .cursor
+    {
+      display: none;
+    }
+    .cursor--in
+    {
+      display: none;
+    }
+    .header
+    {
+      .menu
+      {
+        .menu--right
+        {
+          width: 30%;
+        }
+      }
+    }
+    .main
+    {
+      .section--2, .section--3, .section--4, .section--5
+      {
+        position: relative;
+        .container--project
+        {
+          padding-top: 5vh;
+          .container--content
+          {
+            position: relative;
+            display: block;
+            .container--text
+            {
+              position: relative;
+              .project__title
+              {
+                margin-top: 16px;
+                font-size: $responsive-title;
+              }
+              .project__date
+              {
+                margin-top: 16px;
+              }
+              .project__description
+              {
+                width: 90%;
+                position: absolute;
+                top: 44vh;
+              }
+              .project__tech
+              {
+                position: absolute;
+                top: 54vh;
+              }
+            }
+            .container--img
+            {
+              position: absolute;
+              max-width: 100%;
+              left: 20%;
+              top: 20vh;
+              .project__link
+              {
+                .project__img
+                {
+                  max-width: 100%;
+                }
+              }
+              .img__calque
+              {
+                width: 100%;
+                height: 256px;
+              }
+            }
+          }
+        }
+        .container--pagination
+        {
+          position: absolute;
+          transform: rotate(-90deg);
+          right: 0%;
+          bottom: 60%;
+          display: flex;
+          width: 150px;
+          justify-content: space-between;
+          align-items: center;
+          .pagination__current
+          {
+            color: $red;
+            font-family: $typo-second;
+            font-weight: bold;
+            font-size: $pagination-text-size;
+          }
+          .pagination__line
+          {
+            height: 2px;
+            background-color: $white;
+            width: 64px;
+          }
+          .pagination__total
+          {
+            font-family: $typo-second;
+            color: $white;
+            font-weight: bold;
+            font-size: $pagination-text-size;
+          }
+        }
+      }  
+    }
+    .footer
+    {
+      .menu
+      {
+        .menu--left
+        {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+// Mobile
+
+@media only screen 
+and (max-width : 414px)
+{
+  *
+  {
+    color: greenyellow;
   }
 }
