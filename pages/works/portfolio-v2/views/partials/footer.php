@@ -6,16 +6,19 @@
     </div>
     <nav class="menu">
       <div class="menu--left">
-        <div class="menu__content">
+        <div class="menu__content js-nav-content">
           <a class="menu__link" href="https://www.linkedin.com/in/thibault-richard-49aa04178/" target="_blank">Linkedin</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
-        <div class="menu__content">
+        <div class="menu__content js-nav-content">
           <a class="menu__link" href="https://github.com/ThibaultRichardHetic" target="_blank">Github</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
       <div class="menu--right">
-        <div class="menu__content">
+        <div class="menu__content js-nav-content">
           <a class="menu__link" href="mailto:thibault.richard@hetic.net">richard.thibault.contact@gmail.com</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
     </nav>

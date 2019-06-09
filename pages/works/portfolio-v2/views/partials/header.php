@@ -17,17 +17,19 @@
   <header class="header">
     <nav class="menu">
       <div class="menu--left">
-        <div class="menu__content">
+        <div class="menu__content js-nav-content">
           <a class="menu__link" href="#">Thibault Richard</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
       <div class="menu--right">
-        <div class="menu__content js-lala">
-          <a class="menu__link" href="#">Works.</a>
-          <div class="menu__underline js-lolo"></div>
+        <div class="menu__content js-nav-content">
+          <a class="menu__link" href="<?= URL ?>">Works.</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
-        <div class="menu__content">
-          <a class="menu__link" href="#">About.</a>
+        <div class="menu__content js-nav-content">
+          <a class="menu__link" href="<?= URL ?>about">About.</a>
+          <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
     </nav>

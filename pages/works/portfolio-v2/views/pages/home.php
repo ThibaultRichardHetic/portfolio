@@ -1,4 +1,5 @@
 <?php require('../views/partials/header.php'); ?>
+<?php require('../views/partials/background.php'); ?>
 
   <main id="fullpage" class="main">
 
@@ -37,9 +38,9 @@
           </div>
         </div>
         <div class="container--pagination">
-          <p class="pagination__current">01</p>
-          <div class="pagination__line"></div>
           <p class="pagination__total">04</p>
+          <div class="pagination__line"></div>
+          <p class="pagination__current">01</p>
         </div>
       </div>
     </section>
@@ -64,9 +65,9 @@
           </div>
         </div>
         <div class="container--pagination">
-          <p class="pagination__current">02</p>
-          <div class="pagination__line"></div>
           <p class="pagination__total">04</p>
+          <div class="pagination__line"></div>
+          <p class="pagination__current">02</p>
         </div>
       </div>
     </section>
@@ -91,9 +92,9 @@
           </div>
         </div>
         <div class="container--pagination">
-          <p class="pagination__current">03</p>
-          <div class="pagination__line"></div>
           <p class="pagination__total">04</p>
+          <div class="pagination__line"></div>
+          <p class="pagination__current">03</p>
         </div>
       </div>
     </section>
@@ -118,9 +119,9 @@
           </div>
         </div>
         <div class="container--pagination">
-          <p class="pagination__current">04</p>
-          <div class="pagination__line"></div>
           <p class="pagination__total">04</p>
+          <div class="pagination__line"></div>
+          <p class="pagination__current">04</p>
         </div>
       </div>
     </section>

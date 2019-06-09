@@ -65,29 +65,75 @@ class NavHover
 {
   constructor()
   {
-    this.$lala = document.querySelector('.js-lala')
-    this.$lolo = document.querySelector('.js-lolo')
+    this.$navContent = document.querySelectorAll('.js-nav-content')
+    this.$underline = document.querySelectorAll('.js-nav-underline')
+    this.$cursor = document.querySelector('.js-cursor')
 
-    this.$lala.addEventListener('mouseover', () =>
+    this.$navContent[0].addEventListener('mouseover', () =>
     {
-      this.mouseIn()
+      this.mouseIn(0)
+    })
+    this.$navContent[1].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(1)
+    })
+    this.$navContent[2].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(2)
+    })
+    this.$navContent[3].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(3)
+    })
+    this.$navContent[4].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(4)
+    })
+    this.$navContent[5].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(5)
     })
 
-    this.$lala.addEventListener('mouseout', () =>
+
+    this.$navContent[0].addEventListener('mouseout', () =>
     {
-      this.mouseOut()
+      this.mouseOut(0)
+    })
+    this.$navContent[1].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(1)
+    })
+    this.$navContent[2].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(2)
+    })
+    this.$navContent[3].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(3)
+    })
+    this.$navContent[4].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(4)
+    })
+    this.$navContent[5].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(5)
     })
 
   }
 
-  mouseIn()
+  mouseIn(i)
   {
-    this.$lolo.className = 'menu__underline--active'
+    this.$underline[i].className = 'menu__underline--active'
+    this.$cursor.style.opacity = '0'
+    this.$cursor.style.transition = 'all 0.2s'
   }
 
-  mouseOut()
+  mouseOut(i)
   {
-    this.$lolo.className = 'menu__underline'
+    this.$underline[i].className = 'menu__underline'
+    this.$cursor.style.opacity = '1'
+    this.$cursor.style.transition = 'all 0.2s'
   }
 }
 
