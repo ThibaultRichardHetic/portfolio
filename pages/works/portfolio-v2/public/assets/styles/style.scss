@@ -280,7 +280,151 @@ $cursor-inside-size: 8px;
   }
   .main--about
   {
-    
+    .container--about
+    {
+      padding-top: 20vh;
+      width: 80%;
+      margin: auto;
+      .about__title
+      {
+        width: 60%;
+        color: $white;
+        font-weight: $typo-weight;
+        font-family: $typo-current;
+        font-size: $project-text-size;
+        letter-spacing: 4.5px;
+      }
+      .about__info
+      {
+        margin-top: 24px;
+        color: $white;
+        opacity: 0.8;
+        font-weight: $typo-weight;
+        font-family: $typo-current;
+        font-size: $menu-text-size;
+        letter-spacing: 2px;
+        width: 45%;
+      }
+      .about__resume
+      {
+        .resume__dl
+        {
+          width: 20%;
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          .resume__title
+          {
+            margin-top: 24px;
+            font-family: $typo-current;
+            font-size: $menu-text-size;
+            color: $white;
+            opacity: 0.3;
+            text-transform: uppercase;
+            letter-spacing: 5.5px;
+            font-weight: $typo-weight;
+          }
+          .resume__logo
+          {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+    .container--competencies
+    {
+      width: 80%;
+      margin: auto;
+      margin-top: 10vh;
+      display: flex;
+      justify-content: start;
+      .skill
+      {
+        width: 50%;
+        .skill__title
+        {
+          color: $white;
+          font-family: $typo-current;
+          font-size: $title-text-size;
+        }
+        .skill__icons
+        {
+          margin-top: 34px;
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          .skill__icon
+          {
+            width: 32px;
+            height: 36px;
+          }
+        }
+      }
+      .language
+      {
+        width: 50%;
+        .language__title
+        {
+          color: $white;
+          font-family: $typo-current;
+          font-size: $title-text-size;
+        }
+        .language__list
+        {
+          margin-top: 34px;
+          .language__groupe
+          {
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: start;
+            .language__country
+            {
+              color: $white;
+              width: 25%;
+              font-family: $typo-current;
+              font-size: $menu-text-size;
+            }
+            .language__level
+            {
+              color: $white;
+              opacity: 0.3;
+              font-family: $typo-current;
+              font-size: $menu-text-size;
+            }
+          }
+        }
+      }
+    }
+    .container--formation
+    {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 10vh;
+      .formation__title
+      {
+        color: $white;
+        font-family: $typo-current;
+        font-size: $title-text-size;
+        margin-bottom: 34px;
+      }
+      .formation__content
+      {
+        margin-bottom: 16px;
+        .formation__description
+        {
+          color: $white;
+          font-family: $typo-current;
+          font-size: $menu-text-size;
+        }
+        .formation__date
+        {
+          color: $red;
+          font-family: $typo-current;
+          font-size: $menu-text-size;
+        }
+      }
+    }
   }
   .footer
   {

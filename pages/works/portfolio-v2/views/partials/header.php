@@ -18,7 +18,7 @@
     <nav class="menu">
       <div class="menu--left">
         <div class="menu__content js-nav-content">
-          <a class="menu__link" href="#">Thibault Richard</a>
+          <a class="menu__link" href="<?= URL ?>">Thibault Richard</a>
           <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
