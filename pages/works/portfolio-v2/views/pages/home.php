@@ -91,7 +91,7 @@
             </div>
           </div>
           <div class="project__illu">
-            <a class="project__link" href="#" target="_blank">
+            <a class="project__link" href="http://richard-thibault.com/pages/works/petabc" target="_blank">
               <div class="container--img">
                 <img class="project__img" src="<?= URL ?>/assets/images/pet-abc.jpg" alt="pet abc web site">
                 <div class="img__calque"></div>
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="project__illu">
-            <a class="project__link" href="#" target="_blank">
+            <a class="project__link" href="http://richard-thibault.com/pages/works/typetravel/" target="_blank">
               <div class="container--img">
                 <img class="project__img" src="<?= URL ?>/assets/images/type-travel.jpg" alt="type travel web site">
                 <div class="img__calque"></div>
