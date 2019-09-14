@@ -2,7 +2,7 @@
 
 // Configuration 
   // define('URL', 'http://localhost:8888/perso/portfolio/pages/works/portfolio-v2/public/');
-  define('URL', 'http://richard-thibault.com');
+  define('URL', 'http://richard-thibault.com/');
 
 session_start();
 
