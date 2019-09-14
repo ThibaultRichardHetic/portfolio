@@ -29,7 +29,7 @@
           <div class="menu__underline js-nav-underline"></div>
         </div>
         <div class="menu__content js-nav-content">
-          <a class="menu__link" href="<?= URL ?>about">About.</a>
+          <a class="menu__link" href="<?= URL ?>/about">About.</a>
           <div class="menu__underline js-nav-underline"></div>
         </div>
       </div>
