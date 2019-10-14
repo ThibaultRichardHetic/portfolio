@@ -54,7 +54,7 @@ class Wave
           this.index ++
           theLoop(i)
         }
-      }, 400)
+      }, 250)  // wait time
     })(this.$span_title.length)
   }
 
