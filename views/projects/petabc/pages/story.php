@@ -17,9 +17,9 @@
     <div class="wrapper">
       <div class="wrapper__header">
         <img src="../images/logo.png" alt="logo">
-          <a class="wrapper__header__a" href="../index.html">HOME</a>
-          <a class="wrapper__header__a" href="story.html">STORY</a>
-          <a  class="wrapper__header__a" href="product.html">PRODUCT</a>
+          <a class="wrapper__header__a" href="<?= URL ?>/petabc">HOME</a>
+          <a class="wrapper__header__a" href="<?= URL_petabc ?>story.php">STORY</a>
+          <a  class="wrapper__header__a" href="<?= URL_petabc ?>product.php">PRODUCT</a>
           <a class="wrapper__header__button" href="http://kck.st/2Oprih9">KICKSTARTER</a>
       </div>
     </div>
@@ -33,9 +33,9 @@
       </label>
       <nav id="navIndex">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="story.html">Story</a></li>
-          <li><a href="product.html">Product</a></li>
+          <li><a href="<?= URL ?>/petabc">Home</a></li>
+          <li><a href="<?= URL_petabc ?>story.php">Story</a></li>
+          <li><a href="<?= URL_petabc ?>product.php">Product</a></li>
           <li><a href="http://kck.st/2Oprih9">Kickstarter</a></li>
         </ul>
       </nav>

@@ -18,7 +18,7 @@
     <section class="section--step1 section--default js-section--step1">
       <div class="step1__header header--default">
         <div class="header__back ">   
-          <p><span><</span> <a href="<?= URL_crehappy ?>index.php">Retour</a></p>
+          <p><span><</span> <a href="<?= URL_crehappy ?>">Retour</a></p>
         </div>
         <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button js-next js-next">

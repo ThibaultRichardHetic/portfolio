@@ -24,14 +24,18 @@ else if ($q == 'about') {
 else if ($q == 'crehappy'){
   $controller = 'crehappy';
   define('URL_crehappy', 'http://localhost:8888/perso/portfolio/views/projects/crehappy/');
+  // define('URL_crehappy', 'http://richard-thibault.com/../views/projects/crehappy/');
 }
 else if ($q == 'typetravel'){
   $controller = 'typetravel';
+  define('URL_typetravel', 'http://localhost:8888/perso/portfolio/views/projects/typetravel/');
+  // define('URL_typetravel', 'http://richard-thibault.com/../views/projects/typetravel/');
 }
 else if ($q == 'petabc'){
   $controller = 'petabc';
+  define('URL_petabc', 'http://localhost:8888/perso/portfolio/views/projects/petabc/');
+  // define('URL_petabc', 'http://richard-thibault.com/../views/projects/petabc/');
 }
-
 
 // Include controller
 include '../controllers/'.$controller.'.php';

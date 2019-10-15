@@ -7,10 +7,10 @@
   <title>iTreater</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="iTreater is an automatic pet feeder using the internet. When your pet is left alone, (s)he might be blue. Most of all, having dried food all day can be the biggest torture to the pet." />
-  <link rel="icon" type="image/jpg" href="images/favicon.jpg"/>
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/scss/style--generalStyles.min.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/scss/main/style--header_footer.min.css"/>
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/scss/landing/style--landing.min.css" />
+  <link rel="icon" type="image/jpg" href="<?= URL_petabc ?>images/favicon.jpg"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="<?= URL_petabc ?>styles/scss/style--generalStyles.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="<?= URL_petabc ?>styles/scss/main/style--header_footer.min.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="<?= URL_petabc ?>styles/scss/landing/style--landing.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -18,15 +18,15 @@
   <header>
     <div class="wrapper">
       <div class="wrapper__header">
-        <img src="images/logo.png" alt="logo iTreater">
-          <a class="wrapper__header__a" href="index.html">HOME</a>
-          <a class="wrapper__header__a" href="pages/story.html">STORY</a>
-          <a  class="wrapper__header__a" href="pages/product.html">PRODUCT</a>
+        <img src="<?= URL_petabc ?>images/logo.png" alt="logo iTreater">
+          <a class="wrapper__header__a" href="#">HOME</a>
+          <a class="wrapper__header__a" href="<?= URL_petabc ?>pages/story.php">STORY</a>
+          <a  class="wrapper__header__a" href="<?= URL_petabc ?>pages/product.php">PRODUCT</a>
           <a class="wrapper__header__button" href="http://kck.st/2Oprih9">KICKSTARTER</a>
       </div>
     </div>
     <div class="burgerMenu">
-      <img src="images/logo.png" alt="logo iTreaetr" class="logo">
+      <img src="<?= URL_petabc ?>images/logo.png" alt="logo iTreaetr" class="logo">
       <input id="burger" type="checkbox" />
       <label for="burger" id="burgerMenu">
         <span></span>
@@ -35,9 +35,9 @@
       </label>
       <nav id="navIndex">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/story.html">Story</a></li>
-            <li><a href="pages/product.html">Product</a></li>
+            <li><a href="<?= URL_petabc ?>index.html">Home</a></li>
+            <li><a href="<?= URL_petabc ?>pages/story.html">Story</a></li>
+            <li><a href="<?= URL_petabc ?>pages/product.html">Product</a></li>
             <li><a href="http://kck.st/2Oprih9">Kickstarter</a></li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
       <section class="content__landing">
         <div class="filter--grey"></div>
         <video autoplay muted loop id="myVideo">
-          <source src="video/landing_video.mp4" type="video/mp4">
+          <source src="<?= URL_petabc ?>video/landing_video.mp4" type="video/mp4">
         </video>
         <div class="landing__text">
           <h2>The PetABC iTreater</h2>
@@ -58,7 +58,7 @@
           </p>
         </div>
         <a href="https://www.kickstarter.com/projects/1966606055/petabc-itreater?ref=discovery">
-          <img src="images/kickstarter/logo.png" alt="kickstarter" class="icon-kickstarter" />
+          <img src="<?= URL_petabc ?>images/kickstarter/logo.png" alt="kickstarter" class="icon-kickstarter" />
         </a>
       </section>
       <section class="content__presentationProduct">
@@ -77,19 +77,19 @@
               </p>
               <div class="presentationProduct__icon">
                 <a href="https://itunes.apple.com/fr/genre/ios/id36?mt=8">
-                  <img src="images/icon-store/appstore.png" alt="appstore" class="presentationProduct1__appstore"/>
+                  <img src="<?= URL_petabc ?>images/icon-store/appstore.png" alt="appstore" class="presentationProduct1__appstore"/>
                 </a>
                 <a href ="https://play.google.com/store?id=CBE0rgEACAAJ&hl=fr">
-                  <img src="images/icon-store/playstore.png" alt="playstore" class="presentationProduct1__playstore"/>
+                  <img src="<?= URL_petabc ?>images/icon-store/playstore.png" alt="playstore" class="presentationProduct1__playstore"/>
                 </a>
               </div>
             </div>
           </div>
-          <img src="images/product/product1.png" alt="product" class="presentationProduct__img--1" data-aos="slide-left" />
+          <img src="<?= URL_petabc ?>images/product/product1.png" alt="product" class="presentationProduct__img--1" data-aos="slide-left" />
         </div>
         <div class="presentationProduct__item" id="inverse">
           <div class="presentationProduct__img-right">
-            <img src="images/product/product2.jpg" alt="product" class="presentationProduct__img--2" data-aos="slide-right"/>
+            <img src="<?= URL_petabc ?>images/product/product2.jpg" alt="product" class="presentationProduct__img--2" data-aos="slide-right"/>
           </div>
           <div class="presentationProduct__text" data-aos="slide-left">
             <h2>Do not worry about<br />
@@ -110,35 +110,35 @@
         <div class="parallaxMouse__textContainer" data-tilt data-tilt-max="20" data-tilt-speed="100"
             data-tilt-perspective="800">
           <div>
-            <img src="images/parallax/icone-microphone.png" alt="microphone icon" class="parallaxMouse__textContainer__i1">
+            <img src="<?= URL_petabc ?>images/parallax/icone-microphone.png" alt="microphone icon" class="parallaxMouse__textContainer__i1">
             <p class="parallaxMouse__textContainer__p1">
               Recording your voice
             </p>
           </div>
           <div class="">
-            <img src="images/parallax/icone-telephone.png" alt="telephone icon" class="parallaxMouse__textContainer__i2">
+            <img src="<?= URL_petabc ?>images/parallax/icone-telephone.png" alt="telephone icon" class="parallaxMouse__textContainer__i2">
             <p class="parallaxMouse__textContainer__p2">Remote Checking leftover food & Feeding</p>
           </div>
           <div class="">
-            <img src="images/parallax/icone-bone.png" alt="bones icon" class="parallaxMouse__textContainer__i3">
+            <img src="<?= URL_petabc ?>images/parallax/icone-bone.png" alt="bones icon" class="parallaxMouse__textContainer__i3">
             <p class="parallaxMouse__textContainer__p3">regularly feed your pet</p>
           </div>
           <div class="">
-            <img src="images/parallax/icone-video.png" alt="video icon" class="parallaxMouse__textContainer__i4">
+            <img src="<?= URL_petabc ?>images/parallax/icone-video.png" alt="video icon" class="parallaxMouse__textContainer__i4">
             <p class="parallaxMouse__textContainer__p4">Video & Music</p>
           </div>
           <div class="">
-            <img src="images/parallax/icone-temperature.png" alt="temperature icon" class="parallaxMouse__textContainer__i5">
+            <img src="<?= URL_petabc ?>images/parallax/icone-temperature.png" alt="temperature icon" class="parallaxMouse__textContainer__i5">
             <p class="parallaxMouse__textContainer__p5">Check the temperature</p>
           </div>
-          <a href="pages/product.html">
-            <img class="parallaxMouse__machine" src="images/parallax/machine-noire.png" alt="Black feeder itreater">
+          <a href="<?= URL_petabc ?>pages/product.html">
+            <img class="parallaxMouse__machine" src="<?= URL_petabc ?>images/parallax/machine-noire.png" alt="Black feeder itreater">
           </a>
         </div>
       </section>
       <section class="content__kickstarter">
         <div class="kickstarter__banner">
-          <img src="images/kickstarter/banner.png" alt="banner kickstarter" />
+          <img src="<?= URL_petabc ?>images/kickstarter/banner.png" alt="banner kickstarter" />
           <div class="kickstarter__text">
             <h2>Kickstarter</h2>
             <p>We need 4249$ to<br/>
@@ -159,10 +159,10 @@
       </div>
       <div id="wrapper__medias" class="wrapper__medias">
         <a class="facebookIcon" href="https://www.facebook.com/pages/category/Shopping---Retail/Pet-Alone-But-Connected-i-Treater-1875845302709565/" target="_blank">
-          <img src="images/icon-social/icon-facebook.svg" alt="facebookIcon">
+          <img src="<?= URL_petabc ?>images/icon-social/icon-facebook.svg" alt="facebookIcon">
         </a>
         <a class="instagramIcon" href="https://www.instagram.com/petabc_itreater/" target="_blank">
-          <img src="images/icon-social/icon-instagram.svg" alt="instagramIcon">
+          <img src="<?= URL_petabc ?>images/icon-social/icon-instagram.svg" alt="instagramIcon">
         </a>
       </div>
       <div class="wrapper__button">
@@ -172,7 +172,7 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="scripts/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="<?= URL_petabc ?>scripts/vanilla-tilt.min.js"></script>
   <script type="text/javascript">
       VanillaTilt.init(document.querySelector(".your-element"), {
           max: 25,
@@ -180,7 +180,7 @@
       });
   </script>
   <script type="text/javascript"  src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script type="text/javascript"  src="scripts/aos.min.js"></script>
+  <script type="text/javascript"  src="<?= URL_petabc ?>scripts/aos.min.js"></script>
   <script>
       AOS.init();
   </script>
