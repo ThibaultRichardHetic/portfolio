@@ -55,7 +55,7 @@
               <h3 class="project__title">Crehappy</h3>
               <p class="project__date">2018</p>
               <p class="project__description">
-                School project for in objective to create a social network for youth people. That mean every pictures are analysed to no have indesire content.
+                School project in objective to create a social network for youth people. That mean every pictures are analysed to no have indesire content.
               </p>
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP, Secure API</p>
             </div>

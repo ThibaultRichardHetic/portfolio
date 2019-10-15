@@ -1,8 +1,8 @@
 <?php
 
 // Configuration 
-  // define('URL', 'http://localhost:8888/perso/portfolio/pages/works/portfolio-v2/public/');
-  define('URL', 'http://richard-thibault.com');
+  define('URL', 'http://localhost:8888/perso/portfolio/public');
+  //define('URL', 'http://richard-thibault.com');
 
 session_start();
 
@@ -23,6 +23,7 @@ else if ($q == 'about') {
 }
 else if ($q == 'crehappy'){
   $controller = 'crehappy';
+  define('URL_crehappy', 'http://localhost:8888/perso/portfolio/views/projects/crehappy/');
 }
 else if ($q == 'typetravel'){
   $controller = 'typetravel';
