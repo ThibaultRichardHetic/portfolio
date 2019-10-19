@@ -8,21 +8,20 @@
     <meta name="robot" content="nofollow">
     <meta name="description" content="Une plateforme ultra-sécurisée où chaque enfant peut poster des contenus qu’il a créés dans la positivité et le respect.">
     <title>CreHappy</title>
-    <link rel="icon" type="image/png" href="<?= URL_crehappy ?>src/all/logo.png"/>
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/crehappy/src/all/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="<?= URL_crehappy ?>styles/reset.min.css">
-    <link rel="stylesheet" href="<?= URL_crehappy ?>styles/style.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/reset.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/style.min.css">
 </head>
 <body class="body--landing">
   <header>
-    <img class="logo" src="<?= URL_crehappy ?>src/all/logo.png" alt="">
+    <img class="logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="">
     <h3>CréHappy</h3>
     <div class="scroll-indicator fa fa-chevron-down">^</div>
     <div class="button--fixed">
-
       <div class="button__register">
         <p>
-          <a href="<?= URL_crehappy ?>register.php">je m’inscris</a>
+          <a href="<?= URL ?>/crehappy/inscription">je m’inscris</a>
         </p>
       </div>
       <p class="register__interrogation">
@@ -30,67 +29,67 @@
       </p>
       <div class="button__connexion">
         <p>
-          <a href="<?= URL_crehappy ?>register.php">Se connecter</a>
+          <a href="<?= URL ?>/crehappy/inscription">Se connecter</a>
         </p>
       </div>
     </div>
     <div class="img--fixed">
-      <img src="<?= URL_crehappy ?>src/landing/planet.png" data-cursor-depth="0.005" class="cursor-parallax lazy" alt="">
+      <img src="<?= URL ?>/assets/projects/crehappy/src/landing/planet.png" data-cursor-depth="0.005" class="cursor-parallax lazy" alt="">
     </div>
   </header>
   <main id="fullpage">
     <section class="section--step1 section--default section">
       <div class="step1__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle03.svg" alt="">
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle03.svg" alt="">
         <h3>Bienvenue à toi !</h3>
       </div>
-      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" data-cursor-depth="0.040" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil.png" alt="">
+      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" data-cursor-depth="0.040" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil.png" alt="">
     </section>
     <section class="section--step2 section--default section">
       <div class="step2__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle02.svg" alt="">
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle02.svg" alt="">
         <p>
            Ici tu t'inscris sur un espace de <span class="important--red">partage</span>, <span class="important--red">liberté</span>, <span class="important--red">positivité</span>, <span class="important--red">sécurité</span> et surtout : <span class="important--red important--bold">créativité</span>. C'est aussi ici que tu pourras retrouver tes amis et jeunes de ton âge.
         </p>
       </div>
-      <img class="men--default cursor-parallax lazy" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil2.svg" data-cursor-depth="0.040" alt="">
+      <img class="men--default cursor-parallax lazy" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil2.svg" data-cursor-depth="0.040" alt="">
     </section>
     <section class="section--step3 section--default section">
       <div class="step3__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle03.svg" 
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle03.svg" 
           alt="">
         <p>
           Bientôt tu vas avoir <span class="important">ton journal</span> et ton fil de <span class="important">découverte</span>. Un journal <span class="important">public</span> où ce que tu mets sera visible par tous, un journal <span class="important">privé</span> que tu seras seul à voir, et un fil de découverte qui te proposera des <span class="important important--bold">créas</span> qui te correspondent.
         </p>
       </div>
-      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil3.svg" alt="">
+      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil3.svg" alt="">
     </section>
     <section class="section--step4 section--default section">
       <div class="step4__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle02.svg" alt="">
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle02.svg" alt="">
         <p>
           Tu peux aussi jouer à des <span class="important--red">jeux</span> et même consulter les <span class="important--red important--bold">créas</span> des autres sur des sujets trop cools !        
         </p>
       </div>
-      <img class="men--default cursor-parallax lazy" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil2.svg"  data-cursor-depth="0.040" alt="">
+      <img class="men--default cursor-parallax lazy" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil2.svg"  data-cursor-depth="0.040" alt="">
     </section>
     <section class="section--step5 section--default section">
       <div class="step5__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle03.svg" alt="">
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle03.svg" alt="">
         <p>
           Fais quand même attention ! Il y a peu de règles mais une super importante : le <span class="important important--bold">respect</span> des autres. Donc pas de commentaire méchant, pas de gros mots ou d’insultes !        
         </p>
       </div>
-      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil4.svg" alt="">
+      <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil4.svg" alt="">
     </section>
     <section class="section--step6 section--default section">
       <div class="step6__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
-        <img src="<?= URL_crehappy ?>src/landing/bulle02.svg" alt="">
+        <img src="<?= URL ?>/assets/projects/crehappy/src/landing/bulle02.svg" alt="">
         <p>
           Amuse toi, ta seule limite est ton imagination !
         </p>
       </div>
-      <img class="men--default cursor-parallax lazy" src="<?= URL_crehappy ?>src/landing/illu_astro-accueil5.svg" data-cursor-depth="0.040" alt="">
+      <img class="men--default cursor-parallax lazy" src="<?= URL ?>/assets/projects/crehappy/src/landing/illu_astro-accueil5.svg" data-cursor-depth="0.040" alt="">
     </section>
    
   </main>
@@ -99,7 +98,7 @@
 
   </footer>
 
-  <script src="<?= URL_crehappy ?>library/fullpage/fullpage.js"></script>
-  <script src="<?= URL_crehappy ?>scripts/landing.js"></script>
+  <script src="<?= URL ?>/assets/projects/crehappy/library/fullpage/fullpage.js"></script>
+  <script src="<?= URL ?>/assets/projects/crehappy/scripts/landing.js"></script>
 </body>
 </html>
