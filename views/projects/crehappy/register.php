@@ -8,10 +8,10 @@
     <meta name="robot" content="nofollow">
     <meta name="description" content="Une plateforme ultra-sécurisée où chaque enfant peut poster des contenus qu’il a créés dans la positivité et le respect.">
     <title>CreHappy</title>
-    <link rel="icon" type="image/png" href="src/all/logo.png"/>
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/crehappy/src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.min.css">
-    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/reset.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/style.min.css">
 </head>
 <body class="body--registration">
   <main>
@@ -20,7 +20,7 @@
         <div class="header__back ">   
           <p><span><</span> <a href="<?= URL_crehappy ?>">Retour</a></p>
         </div>
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
         <div class="header__button js-next js-next">
           <p>Continuer</p>
         </div>
@@ -48,7 +48,7 @@
         <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
         <div class="header__button js-next">
           <p>Continuer</p>
         </div>
@@ -56,7 +56,7 @@
       <div class="step2__content content--default"> 
         <h4 class="step2__title title--default">Je choisis mon avatar</h4>
         <div class="step2__circle">
-          <img src="src/Discovery/Main/Posts/PP/images.png" alt="avatar de l'utilisateur">
+          <img src="<?= URL ?>/assets/projects/crehappy/src/Discovery/Main/Posts/PP/images.png" alt="avatar de l'utilisateur">
         </div>
         <div class="content__button">
           <p>Personnaliser</p>
@@ -68,7 +68,7 @@
         <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
         <div class="header__button js-next">
           <p>Continuer</p>
         </div>
@@ -121,7 +121,7 @@
         <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
         <div class="header__button js-next">
           <p>Continuer</p>
         </div>
@@ -141,7 +141,7 @@
         <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
       </div>
       <div class="step5__content content--default">
         <h4 class="step5__title title--default">Informations de sécurité</h4>
@@ -179,7 +179,7 @@
     </section>
     <section class="section--step6 section--default js-section--step6">
       <div class="step6__header header--default">
-        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <img class="header__logo" src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="#">
       </div>
       <div class="step6__content content--default">
         <h4 class="step6__title title--default">Demande d’inscription enregistrée !</h4>
@@ -194,7 +194,7 @@
         </p>
         <div class="content__button">
           <p>
-            <a href="discover.php">Accés à la démo</a>    
+            <a href="<?= URL ?>/crehappy/decouverte">Accés à la démo</a>    
           </p>
         </div>
       </div>
@@ -219,6 +219,6 @@
   </main>
   <footer>
   </footer>
-  <script src="scripts/register.js"></script>
+  <script src="<?= URL ?>/assets/projects/crehappy/scripts/register.js"></script>
 </body>
 </html>

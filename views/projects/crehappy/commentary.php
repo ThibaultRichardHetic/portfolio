@@ -8,10 +8,10 @@
     <meta name="robot" content="noindex">
     <meta name="robot" content="nofollow">
     <title>CreHappy</title>
-    <link rel="icon" type="image/png" href="src/all/logo.png"/>
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/crehappy/src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.min.css">
-    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/reset.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/style.min.css">
 </head>
 <body class="body--commentary">
 
@@ -21,14 +21,14 @@
 
     <div class="main">
       <div class="main__backgroundimg"></div>
-      <img class="main__spacemanimg" src="src/illu_astro-feed.svg" alt="image représentant l'espace avec des planètes. Servant de d'image de fond au fil découverte">
+      <img class="main__spacemanimg" src="<?= URL ?>/assets/projects/crehappy/src/illu_astro-feed.svg" alt="image représentant l'espace avec des planètes. Servant de d'image de fond au fil découverte">
       <div class="main__title">
         <h2>Découverte</h2>
       </div>
       <div class="main__posts">
         <div class="posts__post1">
           <div class="post1__elements">
-            <img src="src/Discovery/Main/Posts/PP/images.png" class="post1__elements__pp">
+            <img src="<?= URL ?>/assets/projects/crehappy/src/Discovery/Main/Posts/PP/images.png" class="post1__elements__pp">
             <div class="post1__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post1__elements__text"><p>Tuto cuisine avec ma maman</p></div>
             <iframe class="iframe" width="90%" height="50%" src="https://www.youtube.com/embed/PKqLCA_DMuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -176,7 +176,7 @@ $ladif = Diff::htmlDiff($original, $modifie);
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-  <script src="scripts/discover.js"></script>
+  <script src="<?= URL ?>/assets/projects/crehappy/scripts/discover.js"></script>
 </body>
 </html>
 

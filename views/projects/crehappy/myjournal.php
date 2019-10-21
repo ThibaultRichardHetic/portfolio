@@ -10,8 +10,8 @@
     <title>CreHappy</title>
     <link rel="icon" type="image/png" href="src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.min.css">
-    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/reset.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/style.min.css">
 </head>
 <body class="body--myjournal">
 
@@ -26,10 +26,10 @@
       </div>
       <div class="main__journal">
         <div class="journal__background">
-          <img src="src/Myjournal/journal.svg" alt="livre dessiné en flat design">
+          <img src="<?= URL ?>/assets/projects/crehappy/src/Myjournal/journal.svg" alt="livre dessiné en flat design">
         </div>
         <div class="journal__pp">
-          <img src="src/Discovery/Main/Posts/PP/images.png" alt="image de profile utilisateur">
+          <img src="<?= URL ?>/assets/projects/crehappy/src/Discovery/Main/Posts/PP/images.png" alt="image de profile utilisateur">
         </div>
         <div class="journal__buttonchange"><p>Changer</p></div>
         <div class="journal__informations">
@@ -58,16 +58,16 @@
         <div class="journal__mybadges">
           <h2>Mes Badges</h2>
           <div class="mybadges__badge1">
-            <img class="badge1__img" src="src/Myjournal/argent.svg" alt="">
+            <img class="badge1__img" src="<?= URL ?>/assets/projects/crehappy/src/Myjournal/argent.svg" alt="">
             <p class="badge1__p">Trophée obtenu en ayant gagné 10 parties</p>
           </div>
           <div class="mybadges__badge2">
-            <img class="badge2__img" src="src/Myjournal/ruby.svg" alt="">
+            <img class="badge2__img" src="<?= URL ?>/assets/projects/crehappy/src/Myjournal/ruby.svg" alt="">
             <p class="badge2__p">Trophée obtenu en ayant gagné 30 parties</p>
           </div>
         </div>
         <div class="journal__settings">
-          <img src="src/Myjournal/Settings.png" alt="">
+          <img src="<?= URL ?>/assets/projects/crehappy/src/Myjournal/Settings.png" alt="">
           <p class="settings__p">Paramètres</p>
         </div>
       </div>
@@ -84,6 +84,6 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-  <script src="scripts/allpages.js"></script>
+  <script src="<?= URL ?>/assets/projects/crehappy/scripts/allpages.js"></script>
 </body>
 </html>

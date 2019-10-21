@@ -21,11 +21,18 @@ if($q == '')
 else if ($q == 'about') {
   $controller = 'about';
 }
+
 else if ($q == 'crehappy'){
   $controller = 'crehappy';
 }
 else if ($q == 'crehappy/inscription'){
   $controller = 'crehappy-inscription';
+}
+else if ($q == 'crehappy/decouverte'){
+  $controller = 'crehappy-decouverte';
+}
+else if ($q == 'crehappy/commentaire'){
+  $controller = 'crehappy-commentaire';
 }
 
 else if ($q == 'typetravel'){

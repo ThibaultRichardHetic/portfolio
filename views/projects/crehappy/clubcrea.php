@@ -8,10 +8,10 @@
     <meta name="robot" content="nofollow">
     <meta name="description" content="Une plateforme ultra-sécurisée où chaque enfant peut poster des contenus qu’il a créés dans la positivité et le respect.">
     <title>CreHappy</title>
-    <link rel="icon" type="image/png" href="src/all/logo.png"/>
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/crehappy/src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.min.css">
-    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/reset.min.css">
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/crehappy/styles/style.min.css">
 </head>
 <body class="body--clubcrea">
 
@@ -56,7 +56,7 @@
             </div>
         </section>
     </main>
-    <script src="scripts/clubcrea.js"></script>
+    <script src="<?= URL ?>/assets/projects/crehappy/scripts/clubcrea.js"></script>
 </body>
 </html>
 
