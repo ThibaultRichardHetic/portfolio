@@ -37,13 +37,16 @@ else if ($q == 'crehappy/commentaire'){
 
 else if ($q == 'typetravel'){
   $controller = 'typetravel';
-  // define('URL_typetravel', 'http://localhost:8888/perso/portfolio/views/projects/typetravel/');
-  define('URL_typetravel', 'http://richard-thibault.com/../views/projects/typetravel/');
 }
+
 else if ($q == 'petabc'){
   $controller = 'petabc';
-  // define('URL_petabc', 'http://localhost:8888/perso/portfolio/views/projects/petabc/');
-  define('URL_petabc', 'http://richard-thibault.com/../views/projects/petabc/');
+}
+else if ($q == 'petabc/story'){
+  $controller = 'petabc-story';
+}
+else if ($q == 'petabc/product'){
+  $controller = 'petabc-product';
 }
 
 // Include controller

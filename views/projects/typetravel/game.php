@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <title>TYPE TRAVEL</title>
     <meta name="description" content="Jeu Type Travel">
-    <link rel="icon" type="image/png" href="../images/logotype.png" />
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/typetravel/images/logotype.png" />
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/typetravel/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   </head>
   <body>
-
 
     <div class="game" id="game">
       <div class="startGame" id="startGame">
@@ -25,7 +24,7 @@
       <div id="word"></div>
       <div class="tech-slideshow">
         <div class="mover-1"></div>
-        <img src="../images/darkVoyager.png" alt="personnage" id="player" class="player-anim-1">
+        <img src="<?= URL ?>/assets/projects/typetravel/images/darkVoyager.png" alt="personnage" id="player" class="player-anim-1">
       </div>
       <div class="info">
         <span id="pseudo" >pseudo : anonyme</span>
@@ -36,7 +35,7 @@
       <input id="case" type="text" class="search" autofocus>
     </form>
     </div>
-    <script src="../script/data.js"></script>
-    <script src="../script/app.js"></script>
+    <script src="<?= URL ?>/assets/projects/typetravel/script/data.js"></script>
+    <script src="<?= URL ?>/assets/projects/typetravel/script/app.js"></script>
   </body>
 </html>

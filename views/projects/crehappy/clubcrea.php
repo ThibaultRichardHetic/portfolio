@@ -59,5 +59,3 @@
     <script src="<?= URL ?>/assets/projects/crehappy/scripts/clubcrea.js"></script>
 </body>
 </html>
-
-

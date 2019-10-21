@@ -2,4 +2,4 @@
 
 $title = 'Thibault Richard | TypeTravel';
 
-include '../views/projects/typetravel/index.php';
+include '../views/projects/typetravel/game.php';

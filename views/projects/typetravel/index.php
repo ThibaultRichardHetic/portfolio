@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <title>6 Joystick</title>
     <meta name="description" content="présentation de la compagnie 6 Joystick">
-    <link rel="icon" type="image/png" href="../typetravel/images/logo6Joystick.png"/>
-    <link rel="stylesheet" href="styles/styleIndex.css">
+    <link rel="icon" type="image/png" href="<?= URL ?>/assets/projects/typetravel/images/logo6Joystick.png"/>
+    <link rel="stylesheet" href="<?= URL ?>/assets/projects/typetravel/styles/styleIndex.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto+Condensed" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="">
-        <img src="images/logo6Joystick.png" alt="logo de l'entreprise 6 Joystick">
+        <img src="<?= URL ?>/assets/projects/typetravel/images/logo6Joystick.png" alt="logo de l'entreprise 6 Joystick">
         <nav>
           <ul>
-            <li><a href="#">Histoire</a></li>
-            <li><a href="blogs/games.html">Jouer</a></li>
-            <li><a href="blogs/connexion.html">Connexion Rapide</a></li>
-            <li><a href="#">Inscription</a></li>
+            <li><a href="<?= URL ?>typetravel">Histoire</a></li>
+            <li><a href="<?= URL ?>typetravel/game">Jouer</a></li>
+            <li><a href="<?= URL ?>typetravel/connexion">Connexion Rapide</a></li>
+            <li><a href="<?= URL ?>typetravel/connexion">Inscription</a></li>
           </ul>
         </nav>
       </div>
@@ -25,23 +25,23 @@
     <main>
       <div class="preview">
         <h1>Type Travel</h1>
-        <img src="images/banner.png" alt="#">
+        <img src="<?= URL ?>/assets/projects/typetravel/images/banner.png" alt="#">
         <a href="blogs/games.html">Y JOUER MAINTENANT !</a>
       </div>
 
       <div class="regrouping">
         <div class="col3">
-          <img src="images/forestIcon.png" alt="icon découverte">
+          <img src="<?= URL ?>/assets/projects/typetravel/images/forestIcon.png" alt="icon découverte">
           <h3>Découvrir :</h3>
           <p>TYPE TRAVEL permet de découvrir les différents composants des biomes de notre planète !</p>
         </div>
         <div class="col3">
-          <img src="images/think.png" alt="icon apprendre">
+          <img src="<?= URL ?>/assets/projects/typetravel/images/think.png" alt="icon apprendre">
           <h3>Apprendre :</h3>
           <p> Grâce à TYPE TRAVEL entraînez votre enfant pour celui-ci devienne un expert de la dactylographie !</p>
         </div>
         <div class="col3">
-          <img src="images/gamepad.png" alt="icon jouer">
+          <img src="<?= URL ?>/assets/projects/typetravel/images/gamepad.png" alt="icon jouer">
           <h3>S’amuser :</h3>
           <p>TYPE TRAVEL c’est un avant tout un jeu !</p>
         </div>
@@ -53,7 +53,7 @@
       <div class="game">
         <h2>Objectif :</h2>
         <p>TYPE TRAVEL est un jeu moderne, actuel, simple et efficace qui permet a votre enfant de découvrir la faune et la flore des différents biomes de notre planète ; le tous en s’amusant dans un univers qui lui apprendra les joies et les plaisirs de la dactylographie !</p>
-        <img src="images/logotype.png" alt="logo du jeu type travel">
+        <img src="<?= URL ?>/assets/projects/typetravel/images/logotype.png" alt="logo du jeu type travel">
       </div>
 
       <h2 class="rules">Règles du jeu :</h2>

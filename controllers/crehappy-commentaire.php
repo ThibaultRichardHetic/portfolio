@@ -2,4 +2,4 @@
 
 $title = 'Thibault Richard | Crehappy';
 
-include '../views/projects/crehappy/register.php';
+include '../views/projects/crehappy/commentary.php';
