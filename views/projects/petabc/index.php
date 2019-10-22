@@ -19,9 +19,9 @@
     <div class="wrapper">
       <div class="wrapper__header">
         <img src="<?= URL ?>/assets/projects/petabc/images/logo.png" alt="logo iTreater">
-          <a class="wrapper__header__a" href="<?= URL ?>petabc">HOME</a>
-          <a class="wrapper__header__a" href="<?= URL ?>petabc/story">STORY</a>
-          <a  class="wrapper__header__a" href="<?= URL ?>petabc/product">PRODUCT</a>
+          <a class="wrapper__header__a" href="<?= URL ?>/petabc">HOME</a>
+          <a class="wrapper__header__a" href="<?= URL ?>/petabc/story">STORY</a>
+          <a  class="wrapper__header__a" href="<?= URL ?>/petabc/product">PRODUCT</a>
           <a class="wrapper__header__button" href="http://kck.st/2Oprih9">KICKSTARTER</a>
       </div>
     </div>
@@ -35,9 +35,9 @@
       </label>
       <nav id="navIndex">
         <ul>
-            <li><a href="<?= URL ?>petabc">Home</a></li>
-            <li><a href="<?= URL ?>petabc/story">Story</a></li>
-            <li><a href="<?= URL ?>petabc/product">Product</a></li>
+            <li><a href="<?= URL ?>/petabc">Home</a></li>
+            <li><a href="<?= URL ?>/petabc/story">Story</a></li>
+            <li><a href="<?= URL ?>/petabc/product">Product</a></li>
             <li><a href="http://kck.st/2Oprih9">Kickstarter</a></li>
         </ul>
       </nav>
