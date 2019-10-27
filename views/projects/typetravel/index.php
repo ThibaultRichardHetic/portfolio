@@ -14,10 +14,10 @@
         <img src="<?= URL ?>/assets/projects/typetravel/images/logo6Joystick.png" alt="logo de l'entreprise 6 Joystick">
         <nav>
           <ul>
-            <li><a href="<?= URL ?>typetravel">Histoire</a></li>
-            <li><a href="<?= URL ?>typetravel/game">Jouer</a></li>
-            <li><a href="<?= URL ?>typetravel/connexion">Connexion Rapide</a></li>
-            <li><a href="<?= URL ?>typetravel/connexion">Inscription</a></li>
+            <li><a href="<?= URL ?>/typetravel">Histoire</a></li>
+            <li><a href="<?= URL ?>/typetravel/game">Jouer</a></li>
+            <li><a href="<?= URL ?>/typetravel/registration">Connexion Rapide</a></li>
+            <li><a href="<?= URL ?>/typetravel/registration">Inscription</a></li>
           </ul>
         </nav>
       </div>
@@ -26,7 +26,7 @@
       <div class="preview">
         <h1>Type Travel</h1>
         <img src="<?= URL ?>/assets/projects/typetravel/images/banner.png" alt="#">
-        <a href="blogs/games.html">Y JOUER MAINTENANT !</a>
+        <a href="<?= URL ?>/typetravel/game">Y JOUER MAINTENANT !</a>
       </div>
 
       <div class="regrouping">

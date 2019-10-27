@@ -24,6 +24,7 @@ else if ($q == 'about') {
   $controller = 'about';
 }
 
+
 else if ($q == 'crehappy'){
   $controller = 'crehappy';
 }
@@ -39,10 +40,21 @@ else if ($q == 'crehappy/commentary'){
 else if ($q == 'crehappy/my-journal'){
   $controller = 'crehappy-myjournal';
 }
+else if ($q == 'crehappy/clubcrea'){
+  $controller = 'crehappy-clubcrea';
+}
+
 
 else if ($q == 'typetravel'){
   $controller = 'typetravel';
 }
+else if ($q == 'typetravel/registration'){
+  $controller = 'typetravel-registration';
+}
+else if ($q == 'typetravel/game'){
+  $controller = 'typetravel-game';
+}
+
 
 else if ($q == 'petabc'){
   $controller = 'petabc';

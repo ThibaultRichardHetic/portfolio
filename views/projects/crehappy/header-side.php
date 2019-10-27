@@ -73,7 +73,7 @@
                         <img src="<?= URL ?>/assets/projects/crehappy/src/Sidebar/Tongue.png" class="topics__icontongue">
                     </li>
                     <li class="topics__myclubs js-add-club">
-                        <a href="#">Créer Clubs</a>
+                        <a href="<?= URL ?>/crehappy/clubcrea">Créer Clubs</a>
                         <img src="<?= URL ?>/assets/projects/crehappy/src/Sidebar/Cross.png">
                     </li>
                 </ul>

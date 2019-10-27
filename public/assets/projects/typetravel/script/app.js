@@ -11,7 +11,7 @@ let decorations = document.querySelector('.mover-1')
 let playerAnim=document.querySelector('.player-anim-1')
 let endGame=document.getElementById('endGame')
 let restart = document.getElementById('restart')
-let musicBack = new Audio("../images/musicfond.wav")
+let musicBack = new Audio("https://www.richard-thibault.com/assets/projects/typetravel//images/musicfond.wav")
 let wordExistant = []
 let vitesseMot = 15
 let tableau = desert
@@ -34,7 +34,7 @@ function departGame(){
 function animation(fond){  // mouvement du joueur et du fond
   playerAnim.style.animationPlayState="running"
   setTimeout(() => {
-      decorations.style.background = "url(../images/" + fond + ".png)"
+      decorations.style.background = "url(https://www.richard-thibault.com/assets/projects/typetravel/images/" + fond + ".png)"
       decorations.style.backgroundSize = "contain"
       playerAnim.className="player-anim-2"
 
@@ -98,7 +98,7 @@ function comparLetter(a){ //comparaison pour chaque lettre
     document.querySelector('span:nth-child(' + (letterInWord+1) +')').style.color = "white"
   }
   else if ((a != tableau[alea][letterInWord]) && (a != -1) && (a != 'Backspace') && (a != 'Tab')) {
-    let erreur = new Audio("../images/erreur.wav");
+    let erreur = new Audio("https://www.richard-thibault.com/assets/projects/typetravel/images/erreur.wav");
     erreur.play();
     letterInWord ++
     comboIsPossible = 0
@@ -192,7 +192,7 @@ function selectList(){
   else {
     if (moveIsPossiblle == 0) {
       tableau = desert
-      decorations.style.background = "url('../images/desert.png')"
+      decorations.style.background = "url('https://www.richard-thibault.com/assets/projects/typetravel/images/desert.png')"
       decorations.style.backgroundSize = "contain"
     }
   }
@@ -232,7 +232,7 @@ input.addEventListener(
   a = e.key
   comparLetter(a)  // quand le mot est bon
     if(this.value.replace(' ','') == tableau[alea]) {
-      let audio = new Audio("../images/validation.wav");
+      let audio = new Audio("https://www.richard-thibault.com/assets/projects/typetravel/images/validation.wav");
       audio.play();
       form.reset()
       comboIsPossible ++
@@ -290,7 +290,7 @@ theWord.addEventListener( // quand le joueur perd
     musicBack.pause()
     document.querySelector('div.endGame p').innerHTML = "Votre score : " + score
     endGame.style.visibility="visible"
-    let gameOver = new Audio("../images/perdu.wav");
+    let gameOver = new Audio("https://www.richard-thibault.com/assets/projects/typetravel/images/perdu.wav");
     gameOver.play();
     input.disabled="true"
 

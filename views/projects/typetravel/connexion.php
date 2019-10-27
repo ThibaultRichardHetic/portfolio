@@ -13,15 +13,15 @@
       <img src="<?= URL ?>/assets/projects/typetravel/images/logo6Joystick.png" alt="logo de l'entreprise 6 Joystick">
       <nav>
         <ul>
-          <li><a href="<?= URL ?>typetravel">Histoire</a></li>
-          <li><a href="<?= URL ?>typetravel/game">Jouer</a></li>
-          <li><a href="<?= URL ?>typetravel/connexion">Connexion Rapide</a></li>
-          <li><a href="<?= URL ?>typetravel/connexion">Inscription</a></li>
+          <li><a href="<?= URL ?>/typetravel">Histoire</a></li>
+          <li><a href="<?= URL ?>/typetravel/game">Jouer</a></li>
+          <li><a href="<?= URL ?>/typetravel/registration">Connexion Rapide</a></li>
+          <li><a href="<?= URL ?>/typetravel/registration">Inscription</a></li>
         </ul>
       </nav>
     </header>
     <h2>Connexion</h2>
-    <form class="" action="games.html" method="post">
+    <form class="" action="<?= URL ?>/typetravel/game" method="post">
       <p>
         <label>Votre pseudo</label> : <input id="yourPseudo" type="text" name="pseudo" placeholder="Ex : fripouille93"/>
     </p>

@@ -21,7 +21,7 @@
     <div class="button--fixed">
       <div class="button__register">
         <p>
-          <a href="<?= URL ?>/crehappy/refistration">je m’inscris</a>
+          <a href="<?= URL ?>/crehappy/registration">je m’inscris</a>
         </p>
       </div>
       <p class="register__interrogation">
@@ -29,7 +29,7 @@
       </p>
       <div class="button__connexion">
         <p>
-          <a href="<?= URL ?>/crehappy/refistration">Se connecter</a>
+          <a href="<?= URL ?>/crehappy/registration">Se connecter</a>
         </p>
       </div>
     </div>

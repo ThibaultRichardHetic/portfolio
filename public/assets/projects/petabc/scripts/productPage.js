@@ -20,24 +20,21 @@ let colorBackTop = document.querySelector(".colorBack--top")
 let colorBackBottom = document.querySelector(".colorBack--bottom")
 
 function colorRed(){
-  console.log("changement de couleur")
-  imgMachine.src = "../images/productPage/distributeurRed.png"
+  imgMachine.src = "https://www.richard-thibault.com/assets/projects/petabc/images/productPage/distributeurRed.png"
   imgMachine.alt = "Distributeur automatique de croquette rouge"
   colorBackTop.style.backgroundColor = "#DF424E"
   colorBackBottom.style.backgroundColor = "#FDF51C"
 }
 
 function colorBlack(){
-  console.log("changement de couleur")
-  imgMachine.src = "../images/productPage/distributeurBlack.png"
+  imgMachine.src = "https://www.richard-thibault.com/assets/projects/petabc/images/productPage/distributeurBlack.png"
   imgMachine.alt = "Distributeur automatique de croquette noir"
   colorBackTop.style.backgroundColor = "#434343"
   colorBackBottom.style.backgroundColor = "#FBF4E2"
 }
 
 function colorWhite(){
-  console.log("changement de couleur")
-  imgMachine.src = "../images/productPage/distributeurWhite.png"
+  imgMachine.src = "https://www.richard-thibault.com/assets/projects/petabc/images/productPage/distributeurWhite.png"
   imgMachine.alt = "Distributeur automatique de croquette blanc"
   colorBackTop.style.backgroundColor = "#FBF4E2"
   colorBackBottom.style.backgroundColor = "#FDF51C"
