@@ -3,7 +3,7 @@
 // Configuration 
   // define('URL', 'http://localhost:8888/perso/portfolio/public');
   //define('URL', 'http://richard-thibault.com');
-  define('URL', 'https://richard-thibault.com');
+  define('URL', 'https://www.richard-thibault.com');
 
 
 session_start();
@@ -27,14 +27,17 @@ else if ($q == 'about') {
 else if ($q == 'crehappy'){
   $controller = 'crehappy';
 }
-else if ($q == 'crehappy/inscription'){
-  $controller = 'crehappy-inscription';
+else if ($q == 'crehappy/registration'){
+  $controller = 'crehappy-registration';
 }
-else if ($q == 'crehappy/decouverte'){
-  $controller = 'crehappy-decouverte';
+else if ($q == 'crehappy/discover'){
+  $controller = 'crehappy-discover';
 }
-else if ($q == 'crehappy/commentaire'){
-  $controller = 'crehappy-commentaire';
+else if ($q == 'crehappy/commentary'){
+  $controller = 'crehappy-commentary';
+}
+else if ($q == 'crehappy/my-journal'){
+  $controller = 'crehappy-myjournal';
 }
 
 else if ($q == 'typetravel'){

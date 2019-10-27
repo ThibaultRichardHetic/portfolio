@@ -34,7 +34,7 @@
             <iframe class="iframe" width="90%" height="55%" src="https://www.youtube.com/embed/PKqLCA_DMuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="post1__elements__likes">
               <p>350 J'aimes</p>
-              <a href="<?= URL ?>/crehappy/commentaire">
+              <a href="<?= URL ?>/crehappy/commentary">
                 <p>5 Commentaires</p>
               </a>
             </div>

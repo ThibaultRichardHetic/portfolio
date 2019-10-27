@@ -11,19 +11,19 @@
                 </div>
             </div>
             <div class="navbar__logo">
-                <a href="discover.php">
+                <a href="<?= URL ?>/crehappy/discover">
                 <img src="<?= URL ?>/assets/projects/crehappy/src/all/logo.png" alt="">
                 </a>  
             </div>
             <div class="navbar__profil">
-                <a href="myjournal.php">
+                <a href="<?= URL ?>/crehappy/my-journal">
                 <img src="<?= URL ?>/assets/projects/crehappy/src/Navbar/User.png">
                 </a>
             </div>
         </div>
         <div class="container__sidebar">
             <div class="sidebar__avatarpicture">
-                <a href="myjournal.php">
+                <a href="<?= URL ?>/crehappy/my-journal">
                     <img class="js-avatarpicture" src="<?= URL ?>/assets/projects/crehappy/src/Discovery/Main/Posts/PP/images.png" alt="">
                 </a>
                 <div class="avatarpicture__pseudo">
@@ -32,7 +32,7 @@
             </div>
             <div class="sidebar__topics">
                 <ul class="js-ul-side">
-                    <a href="discover.php">
+                    <a href="<?= URL ?>/crehappy/discover">
                         <li class="topics__mytopics">
                            <p>Mes Thèmes</p> 
                         </li>

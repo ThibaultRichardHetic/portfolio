@@ -194,7 +194,7 @@
         </p>
         <div class="content__button">
           <p>
-            <a href="<?= URL ?>/crehappy/decouverte">Accés à la démo</a>    
+            <a href="<?= URL ?>/crehappy/discover">Accés à la démo</a>    
           </p>
         </div>
       </div>
