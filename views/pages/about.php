@@ -3,7 +3,11 @@
   <main class="main--about">
     <div class="container--about">
       <h1 class="about__title">I'm a French Web Developer</h1>
-      <p class="about__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quas perferendis nemo, laboriosam deserunt minima impedit amet repellendus autem minus iusto quaerat, praesentium fugiat libero doloremque? Ut necessitatibus deleniti possimus?</p>
+      <p class="about__info">
+        Hey I am Thibault Richard, 3rd year student at HETIC (n°1 web school) located in Paris.
+        I am passionate about web and mobile development. I also practice design and digital marketing. 
+        Feel free to download my CV for more information or send me an email for a freelance assignment. 
+      </p>
       <div class="about__resume">
         <a href="<?= URL ?>/assets/images/CV-Thibault-Richard.pdf" download="CV-Thibault-Richard.pdf" class="resume__dl">
           <p class="resume__title">My resume</p>
