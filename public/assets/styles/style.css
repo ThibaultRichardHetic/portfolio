@@ -360,7 +360,7 @@ html {
         transition: all 0.4s;
         width: 100%; }
       .body .footer .menu .menu--left {
-        width: 12%;
+        width: 16%;
         display: flex;
         justify-content: space-between; }
 
@@ -472,11 +472,13 @@ html {
     height: 30vh; }
   @keyframes wave {
     0% {
-      transform: translateY(-10vh); }
+      transform: translateY(-30vh); }
     100% {
-      transform: translateY(13vh); } }
-    .body .main .section--1 .container--title .title .title__wave {
-      transform: translateY(-10vh); }
+      transform: translateY(10vh); } }
+    .body .main .section--1 .container--title .title {
+      line-height: 5rem; }
+      .body .main .section--1 .container--title .title .title__wave {
+        transform: translateY(-30vh); }
   .body .main .section--2, .body .main .section--3, .body .main .section--4, .body .main .section--5 {
     position: relative; }
     .body .main .section--2 .container--project, .body .main .section--3 .container--project, .body .main .section--4 .container--project, .body .main .section--5 .container--project {
@@ -497,7 +499,7 @@ html {
             top: 44vh; }
           .body .main .section--2 .container--project .container--content .container--text .project__tech, .body .main .section--3 .container--project .container--content .container--text .project__tech, .body .main .section--4 .container--project .container--content .container--text .project__tech, .body .main .section--5 .container--project .container--content .container--text .project__tech {
             position: absolute;
-            top: 60vh;
+            top: 75vh;
             width: 80%; }
         .body .main .section--2 .container--project .container--content .project__illu, .body .main .section--3 .container--project .container--content .project__illu, .body .main .section--4 .container--project .container--content .project__illu, .body .main .section--5 .container--project .container--content .project__illu {
           width: 100%;
@@ -530,33 +532,37 @@ html {
         color: #FFF;
         font-weight: bold;
         font-size: 2.2rem; }
-  .body .main--about .container--about .about__title {
-    width: 100%; }
-  .body .main--about .container--about .about__info {
-    width: 100%; }
-  .body .main--about .container--about .about__resume .resume__dl {
-    width: 60%; }
-  .body .main--about .container--competencies {
-    flex-direction: column; }
-    .body .main--about .container--competencies .skill {
+  .body .main .section--5 {
+    margin-bottom: 25vh; }
+  .body .main--about {
+    margin-bottom: 25vh; }
+    .body .main--about .container--about .about__title {
       width: 100%; }
-      .body .main--about .container--competencies .skill .skill__icons {
-        width: 80%; }
-        .body .main--about .container--competencies .skill .skill__icons .skill__icon {
-          width: 32px;
-          height: 36px; }
-    .body .main--about .container--competencies .language {
-      margin-top: 56px;
+    .body .main--about .container--about .about__info {
       width: 100%; }
-      .body .main--about .container--competencies .language .language__list {
+    .body .main--about .container--about .about__resume .resume__dl {
+      width: 60%; }
+    .body .main--about .container--competencies {
+      flex-direction: column; }
+      .body .main--about .container--competencies .skill {
         width: 100%; }
-        .body .main--about .container--competencies .language .language__list .language__groupe {
+        .body .main--about .container--competencies .skill .skill__icons {
+          width: 80%; }
+          .body .main--about .container--competencies .skill .skill__icons .skill__icon {
+            width: 32px;
+            height: 36px; }
+      .body .main--about .container--competencies .language {
+        margin-top: 56px;
+        width: 100%; }
+        .body .main--about .container--competencies .language .language__list {
           width: 100%; }
-          .body .main--about .container--competencies .language .language__list .language__groupe .language__country {
-            width: 50%; }
-  .body .main--about .container--formation {
-    margin-top: 56px;
-    margin-bottom: 100px; }
+          .body .main--about .container--competencies .language .language__list .language__groupe {
+            width: 100%; }
+            .body .main--about .container--competencies .language .language__list .language__groupe .language__country {
+              width: 50%; }
+    .body .main--about .container--formation {
+      margin-top: 56px;
+      margin-bottom: 100px; }
   .body .footer {
     bottom: 0%; }
     .body .footer .container--scroll {

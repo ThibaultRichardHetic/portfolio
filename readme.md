@@ -1,7 +1,7 @@
 # Portfolio
 
 - [x] The folio inline :
-    http://richard-thibault.com/pages/works/portfolio-v2/public/
+    https://www.richard-thibault.com/
 
 - [x] The repos git :
     https://github.com/ThibaultRichardHetic/portfolio

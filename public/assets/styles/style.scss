@@ -528,7 +528,7 @@ $cursor-inside-size: 8px;
       }
       .menu--left
       {
-        width: 12%;
+        width: 16%;
         display: flex;
         justify-content: space-between;
       }
@@ -776,18 +776,18 @@ and (max-width : 414px)
           @keyframes wave
           {
             0%{
-              transform: translateY(-10vh);
+              transform: translateY(-30vh);
             }
             100%{
-              transform: translateY(13vh);
+              transform: translateY(10vh);
             }
           }
           .title
           {
-
+            line-height: 5rem;
             .title__wave
             {
-              transform: translateY(-10vh);
+              transform: translateY(-30vh);
             }
           }
         }
@@ -823,7 +823,7 @@ and (max-width : 414px)
               .project__tech
               {
                 position: absolute;
-                top: 60vh;
+                top: 75vh;
                 width: 80%;
               }
             }
@@ -879,9 +879,14 @@ and (max-width : 414px)
           }
         }
       }  
+      .section--5
+      {
+        margin-bottom: 25vh;
+      }
     }
     .main--about
     {
+      margin-bottom: 25vh;
       .container--about
       {
         .about__title
