@@ -19,12 +19,16 @@
       <div class="skill">
         <h2 class="skill__title">My Skills</h2>
         <div class="skill__icons">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/html-logo.svg" alt="">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/css-logo.svg" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/html-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/css-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/js-logo.svg" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/php-logo.svg" alt="">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/webpack-logo.svg" alt="">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/git-logo.svg" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/oracle-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/scss-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/git-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/swift-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/kotlin-logo.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/adobe-logo.png" alt="">
         </div>
       </div>
       <div class="language">
@@ -40,7 +44,7 @@
           </div>
           <div class="language__groupe">
             <p class="language__country">Spanish</p>
-            <p class="language__level">Scholar</p>
+            <p class="language__level">Academic</p>
           </div>
         </div>
       </div>

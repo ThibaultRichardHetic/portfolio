@@ -259,11 +259,12 @@ html {
       .body .main--about .container--competencies .skill .skill__icons {
         margin-top: 34px;
         width: 50%;
-        display: flex;
-        justify-content: space-between; }
+        float: left; }
         .body .main--about .container--competencies .skill .skill__icons .skill__icon {
-          width: 32px;
-          height: 36px; }
+          width: 34px;
+          height: 36px;
+          margin-right: 8px;
+          margin-bottom: 8px; }
     .body .main--about .container--competencies .language {
       width: 50%; }
       .body .main--about .container--competencies .language .language__title {
@@ -300,7 +301,8 @@ html {
       .body .main--about .container--formation .formation__content .formation__description {
         color: #FFF;
         font-family: "Ubuntu";
-        font-size: 1.8rem; }
+        font-size: 1.8rem;
+        margin-bottom: 4px; }
       .body .main--about .container--formation .formation__content .formation__date {
         color: #C90100;
         font-family: "Ubuntu";

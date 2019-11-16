@@ -376,12 +376,13 @@ $cursor-inside-size: 8px;
         {
           margin-top: 34px;
           width: 50%;
-          display: flex;
-          justify-content: space-between;
+          float: left;
           .skill__icon
           {
-            width: 32px;
+            width: 34px;
             height: 36px;
+            margin-right: 8px;
+            margin-bottom: 8px;
           }
         }
       }
@@ -440,6 +441,7 @@ $cursor-inside-size: 8px;
           color: $white;
           font-family: $typo-current;
           font-size: $menu-text-size;
+          margin-bottom: 4px;
         }
         .formation__date
         {
