@@ -5,13 +5,13 @@
     <section class="section section--1">
       <div class="container--title">
         <h1 class="title">
-          <span class="title__wave js-wave">Hey</span>
+          <span class="title__wave js-wave">Hi</span>
           <span class="title__wave js-wave"> ! </span>
           <span class="title__wave js-wave">I'm </span>
           <span class="title__wave js-wave">Thibault</span>
           <span class="title__wave js-wave">, </span>
           <span class="title__wave js-wave">french </span>
-          <span class="title__wave js-wave">front-end</span>
+          <span class="title__wave js-wave">junior</span>
           <span class="title__wave js-wave"> developer</span>
         </h1>
       </div>
@@ -25,7 +25,7 @@
               <h3 class="project__title">Service Prestige</h3>
               <p class="project__date">2019</p>
               <p class="project__description">
-                School project for a VTC comgny who want a new platform to presents all the avantages of service prestige and to register their news drivers by a form.
+                Freelance project for a VTC company looking for a website to recruit new drivers. The emphasis on luxury and quality is important. 
               </p>
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
             </div>
@@ -55,9 +55,9 @@
               <h3 class="project__title">Crehappy</h3>
               <p class="project__date">2018</p>
               <p class="project__description">
-                School project in objective to create a social network for youth people. That mean every pictures are analysed to no have indesire content.
+                A two-week school project on "Technology and Humans". So I chose to create a secure and utopian social network for young people, in order to give them a first experience of the web. 
               </p>
-              <p class="project__tech">Techs used : HTML, CSS, JS, PHP, Secure API</p>
+              <p class="project__tech">Techs used : HTML, CSS, JS, PHP, API</p>
             </div>
           </div>
           <div class="project__illu">
@@ -85,7 +85,7 @@
               <h3 class="project__title">The PetABC</h3>
               <p class="project__date">2018</p>
               <p class="project__description">
-                School project to present a Kistarter’s project that i like and create a website to present it and all of his features
+                School project. 4 days to choose a project on kick starter, and create a showcase website on it.
               </p>
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
             </div>
@@ -115,7 +115,7 @@
               <h3 class="project__title">Type Travel</h3>
               <p class="project__date">2018</p>
               <p class="project__description">
-                School project, where i have to create a game from scratch, for the first real time i use Js and made this project in 4 days.
+                School project. 4 days to develop a website game using native languages.
               </p>
               <p class="project__tech">Techs used : HTML, CSS, JS</p>
             </div>

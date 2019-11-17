@@ -249,7 +249,8 @@ html {
     margin: auto;
     margin-top: 10vh;
     display: flex;
-    justify-content: start; }
+    justify-content: start;
+    margin-bottom: 32px; }
     .body .main--about .container--competencies .skill {
       width: 50%; }
       .body .main--about .container--competencies .skill .skill__title {

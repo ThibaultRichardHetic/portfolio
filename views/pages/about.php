@@ -4,9 +4,10 @@
     <div class="container--about">
       <h1 class="about__title">I'm a French Web Developer</h1>
       <p class="about__info">
-        Hey I am Thibault Richard, 3rd year student at HETIC (n°1 web school) located in Paris.
-        I am passionate about web and mobile development. I also practice design and digital marketing. 
-        Feel free to download my CV for more information or send me an email for a freelance assignment. 
+        HI, I am Thibault Richard, a 3rd year student at hetic (n1 web school) located in Paris.  
+        I am currently looking for a 6-month internship starting in March 2020, in the field of web development. 
+        I am passionate about web and mobile development.  I also like and practice design and digital marketing. 
+        Feel free to download my resume or contact me by email for more information.
       </p>
       <div class="about__resume">
         <a href="<?= URL ?>/assets/images/CV-Thibault-Richard.pdf" download="CV-Thibault-Richard.pdf" class="resume__dl">
