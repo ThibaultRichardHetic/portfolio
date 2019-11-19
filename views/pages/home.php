@@ -30,10 +30,10 @@
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
             </div>
           </div>
-          <div class="project__illu">
+          <div class="project__illu js-project-illu">
             <a class="project__link" href="http://www.serviceprestige.com" target="_blank">
               <div class="container--img">
-                <img class="project__img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="service prestige developpement web site">
+                <img class="project__img js-project-img" src="<?= URL ?>/assets/images/sp-dev.jpg" alt="service prestige developpement web site">
                 <div class="img__calque"></div>
               </div>
             </a>
@@ -60,10 +60,10 @@
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP, API</p>
             </div>
           </div>
-          <div class="project__illu">
+          <div class="project__illu js-project-illu">
             <a class="project__link" href="<?= URL ?>/crehappy" target="_blank">
               <div class="container--img">
-                <img class="project__img" src="<?= URL ?>/assets/images/crehappy.jpg" alt="crehappy web site">
+                <img class="project__img js-project-img" src="<?= URL ?>/assets/images/crehappy.jpg" alt="crehappy web site">
                 <div class="img__calque"></div>
               </div>
             </a>
@@ -90,10 +90,10 @@
               <p class="project__tech">Techs used : HTML, CSS, JS, PHP</p>
             </div>
           </div>
-          <div class="project__illu">
+          <div class="project__illu js-project-illu">
             <a class="project__link" href="<?= URL ?>/petabc" target="_blank">
               <div class="container--img">
-                <img class="project__img" src="<?= URL ?>/assets/images/pet-abc.jpg" alt="pet abc web site">
+                <img class="project__img js-project-img" src="<?= URL ?>/assets/images/pet-abc.jpg" alt="pet abc web site">
                 <div class="img__calque"></div>
               </div>
             </a>
@@ -120,10 +120,10 @@
               <p class="project__tech">Techs used : HTML, CSS, JS</p>
             </div>
           </div>
-          <div class="project__illu">
+          <div class="project__illu js-project-illu">
             <a class="project__link" href="<?= URL ?>/typetravel" target="_blank">
               <div class="container--img">
-                <img class="project__img" src="<?= URL ?>/assets/images/type-travel.jpg" alt="type travel web site">
+                <img class="project__img js-project-img" src="<?= URL ?>/assets/images/type-travel.jpg" alt="type travel web site">
                 <div class="img__calque"></div>
               </div>
             </a>

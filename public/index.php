@@ -3,7 +3,6 @@
 // Configuration 
   // define('URL', 'http://localhost:8888/perso/portfolio/public');
    define('URL', 'https://www.richard-thibault.com');
-
 session_start();
 
 

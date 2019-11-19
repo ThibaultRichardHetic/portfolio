@@ -124,9 +124,7 @@ class NavHover
     {
       this.mouseOut(5)
     })
-
   }
-
   mouseIn(i)
   {
     this.$underline[i].className = 'menu__underline--active'
@@ -142,25 +140,81 @@ class NavHover
   }
 }
 
+class ImgProjectHover
+{
+  constructor()
+  {
+    this.$projectIllu = document.querySelectorAll('.js-project-illu')
+    this.$projectImg = document.querySelectorAll('.js-project-img')
+    this.$cursorIn = document.querySelector('.js-cursor--in')
+
+    this.$projectIllu[0].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(0)
+    })
+    this.$projectIllu[1].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(1)
+    })
+    this.$projectIllu[2].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(2)
+    })
+    this.$projectIllu[3].addEventListener('mouseover', () =>
+    {
+      this.mouseIn(3)
+    })
+
+    
+    this.$projectIllu[0].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(0)
+    })
+    this.$projectIllu[1].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(1)
+    })
+    this.$projectIllu[2].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(2)
+    })
+    this.$projectIllu[3].addEventListener('mouseout', () =>
+    {
+      this.mouseOut(3)
+    })
+  }
+
+  mouseIn(i)
+  {
+    this.$projectImg[i].style.transition = 'all 0.4s'
+    this.$projectImg[i].style.transform = 'scale(1.2)'
+
+    this.$cursorIn.style.backgroundColor = '#C90100'  
+  }
+
+  mouseOut(i)
+  {
+    this.$projectImg[i].style.transition = 'all 0.4s'
+    this.$projectImg[i].style.transform = 'scale(1)'
+
+    this.$cursorIn.style.backgroundColor = '#fff' 
+  }
+
+
+}
+
 const cursor = new Cursor()
 const wave = new Wave()
 const navHover = new NavHover()
+const imgProjectHover = new ImgProjectHover()
 
 // window.onload = function () {
 
 // }
-
 
 new fullpage('#fullpage', {
   // navigation: true,
   responsiveWidth: 700,
   // anchors: ['home', 'service-prestige', 'Crehappy'],
   // parallax: true,
-
 });
-
-
-
-
-
-
