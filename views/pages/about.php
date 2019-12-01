@@ -10,7 +10,7 @@
         Feel free to download my resume or contact me by email for more information.
       </p>
       <div class="about__resume">
-        <a href="<?= URL ?>/assets/images/CV-Thibault-Richard.pdf" download="CV-Thibault-Richard.pdf" class="resume__dl">
+        <a href="<?= URL ?>/assets/images/CV-Thibault-Richard.pdf" download="CV_Thibault_Richard.pdf" class="resume__dl">
           <p class="resume__title">My resume</p>
           <img src="<?= URL ?>/assets/images/download-logo.svg" alt="image de téléchargement" class="resume__logo">
         </a>
