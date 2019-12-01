@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="container--formation">
-      <h2 class="formation__title">My Formation</h2>
+      <h2 class="formation__title">My Education</h2>
       <div class="formation__content">
         <p class="formation__description">HETIC - "Grande école cursus"</p>
         <p class="formation__date">2017 - 2022</p>
