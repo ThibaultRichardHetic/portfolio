@@ -9,7 +9,7 @@
           <span class="title__wave js-wave"> ! </span>
           <span class="title__wave js-wave">I'm </span>
           <span class="title__wave js-wave">Thibault</span>
-          <span class="title__wave js-wave">, </span>
+          <span class="title__wave js-wave">, a </span>
           <span class="title__wave js-wave">french </span>
           <span class="title__wave js-wave">junior</span>
           <span class="title__wave js-wave"> developer</span>
