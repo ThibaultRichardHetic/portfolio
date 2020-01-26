@@ -576,5 +576,15 @@ html {
         flex-direction: column; }
       .body .footer .menu .menu__content {
         margin-top: 8px; } }
+@media only screen and (max-width: 320px) {
+  .body .header .menu .menu--right .menu__content:first-child {
+    display: none; }
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__date {
+    margin-bottom: 30px; }
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description {
+    margin-top: 60px; }
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech {
+    margin-top: 100px;
+    line-height: 2.2rem; } }
 
 /*# sourceMappingURL=style.css.map */
