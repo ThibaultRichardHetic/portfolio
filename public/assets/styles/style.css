@@ -579,12 +579,55 @@ html {
 @media only screen and (max-width: 320px) {
   .body .header .menu .menu--right .menu__content:first-child {
     display: none; }
-  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__date {
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__date {
     margin-bottom: 30px; }
-  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description {
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__description {
     margin-top: 60px; }
-  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech {
+  .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__tech {
     margin-top: 100px;
-    line-height: 2.2rem; } }
+    line-height: 2.2rem; }
+  .body .main .section--2 .container--project .container--pagination, .body .main .section--3 .container--project .container--pagination, .body .main .section--4 .container--project .container--pagination, .body .main .section--5 .container--project .container--pagination {
+    bottom: 15%;
+    right: -10%; }
+  .body .main .section--1 .container--title {
+    height: 35vh; }
+  .body .main .section--2 {
+    margin-top: 0; }
+    .body .main .section--2 .container--project {
+      padding-top: 0%; }
+      .body .main .section--2 .container--project .container--content .text--relative {
+        margin-top: 0;
+        padding-top: 0; }
+        .body .main .section--2 .container--project .container--content .text--relative .container--text {
+          margin-top: 0;
+          padding-top: 0;
+          top: 0; }
+          .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description {
+            margin-top: 80px;
+            line-height: 140%; }
+          .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech {
+            margin-top: 120px; }
+      .body .main .section--2 .container--project .container--content .project__illu .project__link {
+        top: 0; }
+      .body .main .section--2 .container--project .container--pagination {
+        bottom: 25%; }
+  .body .main .section--3 {
+    margin-bottom: 140px; }
+    .body .main .section--3 .container--project .container--content .text--relative .container--text .project__description {
+      line-height: 140%; }
+    .body .main .section--3 .container--project .container--content .text--relative .container--text .project__tech {
+      margin-top: 180px; }
+  .body .main .section--4 {
+    margin-top: 200px; }
+    .body .main .section--4 .container--project .container--content .text--relative .container--text .project__description {
+      margin-top: 80px;
+      line-height: 140%; }
+    .body .main .section--4 .container--project .container--content .text--relative .container--text .project__tech {
+      margin-top: 80px; }
+    .body .main .section--4 .container--project .container--pagination {
+      bottom: 11%; }
+  .body .main .section--5 .container--project .container--content .text--relative .container--text .project__tech {
+    margin-top: 15px;
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
