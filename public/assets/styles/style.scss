@@ -971,6 +971,121 @@ and (max-width : 414px)
   }
 }
 
+// Mobile Iphone 6/7/8
+
+@media only screen 
+and (max-width : 375px)
+and (min-width : 325px)
+{
+  .body
+  {
+    .cursor, .cursor--in
+    {
+      visibility: hidden;
+    }
+    .main
+    {
+      .section--2, .section--3, .section--4, .section--5
+      {
+        border: green solid 1px;
+        .container--project
+        {
+          width: 100%;
+          padding: 0;
+          .container--content
+          {
+            .text--relative
+            {
+              width: 80%;
+              margin: auto;
+              .container--text
+              {
+                top: 0;
+                .project__date
+                {
+                  margin-top: 0;
+                  height: 40px;
+                }
+                .project__description
+                {
+                  top: 50vh;
+                  line-height: 130%;
+                }
+                .project__tech
+                {
+                  line-height: 130%;
+                }
+              }
+            }
+            .project__illu
+            {
+              height: 32vh;
+              .project__link
+              {
+                top: 0;
+              }
+            }
+          }
+          .container--pagination
+          {
+            right: -10%;
+            bottom: 32%;
+          }
+        }
+      }
+      .section--3
+      {
+        .container--content
+        {
+          .text--relative
+          {
+            .container--text
+            {
+              .project__tech
+              {
+                top: 86vh;
+              }
+            }
+          }
+        }
+      }
+      .section--4
+      {
+        .container--content
+        {
+          .text--relative
+          {
+            .container--text
+            {
+              .project__tech
+              {
+                top: 72vh;
+              }
+            }
+          }
+        }
+      }
+      .section--5
+      {
+        .container--content
+        {
+          .text--relative
+          {
+            .container--text
+            {
+              .project__tech
+              {
+                top: 68vh;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
 // Mobile Iphone 5 / SE
 
 @media only screen 
