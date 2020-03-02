@@ -579,31 +579,29 @@ html {
 @media only screen and (max-width: 375px) and (min-width: 325px) {
   .body .cursor, .body .cursor--in {
     visibility: hidden; }
-  .body .main .section--2, .body .main .section--3, .body .main .section--4, .body .main .section--5 {
-    border: green solid 1px; }
-    .body .main .section--2 .container--project, .body .main .section--3 .container--project, .body .main .section--4 .container--project, .body .main .section--5 .container--project {
-      width: 100%;
-      padding: 0; }
-      .body .main .section--2 .container--project .container--content .text--relative, .body .main .section--3 .container--project .container--content .text--relative, .body .main .section--4 .container--project .container--content .text--relative, .body .main .section--5 .container--project .container--content .text--relative {
-        width: 80%;
-        margin: auto; }
-        .body .main .section--2 .container--project .container--content .text--relative .container--text, .body .main .section--3 .container--project .container--content .text--relative .container--text, .body .main .section--4 .container--project .container--content .text--relative .container--text, .body .main .section--5 .container--project .container--content .text--relative .container--text {
-          top: 0; }
-          .body .main .section--2 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__date {
-            margin-top: 0;
-            height: 40px; }
-          .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__description {
-            top: 50vh;
-            line-height: 130%; }
-          .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__tech {
-            line-height: 130%; }
-      .body .main .section--2 .container--project .container--content .project__illu, .body .main .section--3 .container--project .container--content .project__illu, .body .main .section--4 .container--project .container--content .project__illu, .body .main .section--5 .container--project .container--content .project__illu {
-        height: 32vh; }
-        .body .main .section--2 .container--project .container--content .project__illu .project__link, .body .main .section--3 .container--project .container--content .project__illu .project__link, .body .main .section--4 .container--project .container--content .project__illu .project__link, .body .main .section--5 .container--project .container--content .project__illu .project__link {
-          top: 0; }
-      .body .main .section--2 .container--project .container--pagination, .body .main .section--3 .container--project .container--pagination, .body .main .section--4 .container--project .container--pagination, .body .main .section--5 .container--project .container--pagination {
-        right: -10%;
-        bottom: 32%; }
+  .body .main .section--2 .container--project, .body .main .section--3 .container--project, .body .main .section--4 .container--project, .body .main .section--5 .container--project {
+    width: 100%;
+    padding: 0; }
+    .body .main .section--2 .container--project .container--content .text--relative, .body .main .section--3 .container--project .container--content .text--relative, .body .main .section--4 .container--project .container--content .text--relative, .body .main .section--5 .container--project .container--content .text--relative {
+      width: 80%;
+      margin: auto; }
+      .body .main .section--2 .container--project .container--content .text--relative .container--text, .body .main .section--3 .container--project .container--content .text--relative .container--text, .body .main .section--4 .container--project .container--content .text--relative .container--text, .body .main .section--5 .container--project .container--content .text--relative .container--text {
+        top: 0; }
+        .body .main .section--2 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__date, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__date {
+          margin-top: 0;
+          height: 40px; }
+        .body .main .section--2 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__description, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__description {
+          top: 50vh;
+          line-height: 130%; }
+        .body .main .section--2 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--3 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--4 .container--project .container--content .text--relative .container--text .project__tech, .body .main .section--5 .container--project .container--content .text--relative .container--text .project__tech {
+          line-height: 130%; }
+    .body .main .section--2 .container--project .container--content .project__illu, .body .main .section--3 .container--project .container--content .project__illu, .body .main .section--4 .container--project .container--content .project__illu, .body .main .section--5 .container--project .container--content .project__illu {
+      height: 32vh; }
+      .body .main .section--2 .container--project .container--content .project__illu .project__link, .body .main .section--3 .container--project .container--content .project__illu .project__link, .body .main .section--4 .container--project .container--content .project__illu .project__link, .body .main .section--5 .container--project .container--content .project__illu .project__link {
+        top: 0; }
+    .body .main .section--2 .container--project .container--pagination, .body .main .section--3 .container--project .container--pagination, .body .main .section--4 .container--project .container--pagination, .body .main .section--5 .container--project .container--pagination {
+      right: -10%;
+      bottom: 32%; }
   .body .main .section--3 .container--content .text--relative .container--text .project__tech {
     top: 86vh; }
   .body .main .section--4 .container--content .text--relative .container--text .project__tech {
