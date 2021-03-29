@@ -1,8 +1,8 @@
 <?php
 
 // Configuration 
-  define('URL', 'http://localhost:8888/perso/portfolio/public');
-  // define('URL', 'https://www.richard-thibault.com');
+  // define('URL', 'http://localhost:8888/perso/portfolio/public');
+  define('URL', 'https://www.richard-thibault.com');
 session_start();
 
 
@@ -10,7 +10,7 @@ session_start();
 $q = empty($_GET['q']) ? '' : $_GET['q'];
 
 
-// Define controller 
+// Define controller
 $controller = '404';
 
 if($q == '')

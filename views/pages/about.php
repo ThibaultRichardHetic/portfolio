@@ -4,13 +4,13 @@
     <div class="container--about">
       <h1 class="about__title">I'm a French Web Developer</h1>
       <p class="about__info">
-        HI, I am Thibault Richard, a 3rd year student at hetic (n1 web school) located in Paris.  
-        I am currently looking for a 6-month internship starting in March 2020, in the field of web development. 
-        I am passionate about web and mobile development.  I also like and practice design and digital marketing. 
+        HI, I am Thibault Richard, a 4th year student at hetic (n1 web school) located in Paris.  
+        I am currently looking for a 6-month internship starting in May 2021, in the field of web development. 
+        I am passionate about web and mobile development.  I also like and practice product design and digital marketing. 
         Feel free to download my resume or contact me by email for more information.
       </p>
       <div class="about__resume">
-        <a href="<?= URL ?>/assets/images/CV_Thibault_Richard.pdf" download="CV_Thibault_Richard.pdf" class="resume__dl">
+        <a href="<?= URL ?>/assets/images/Thibault_Richard_CV.pdf" download="CV_Thibault_Richard.pdf" class="resume__dl">
           <p class="resume__title">My resume</p>
           <img src="<?= URL ?>/assets/images/download-logo.svg" alt="image de téléchargement" class="resume__logo">
         </a>
@@ -23,12 +23,12 @@
           <img class="skill__icon" src="<?= URL ?>/assets/images/html-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/css-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/js-logo.svg" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/logo-vue.png" alt="">
+          <img class="skill__icon" src="<?= URL ?>/assets/images/logo-react.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/php-logo.svg" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/oracle-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/scss-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/git-logo.png" alt="">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/swift-logo.png" alt="">
-          <img class="skill__icon" src="<?= URL ?>/assets/images/kotlin-logo.png" alt="">
           <img class="skill__icon" src="<?= URL ?>/assets/images/adobe-logo.png" alt="">
         </div>
       </div>

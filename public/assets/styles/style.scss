@@ -1,51 +1,49 @@
 // Set global values
-*{   
+* {
   cursor: none;
 }
-*:hover
-{
+*:hover {
   cursor: none;
 }
-html { font-size: 62.5%; } 
-
-@font-face { 
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Regular.ttf') format('ttf');
-}
-@font-face { 
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-Regular.ttf') format('ttf');
+html {
+  font-size: 62.5%;
 }
 
-// Defines variables 
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Vollkorn";
+  src: url("../fonts/Vollkorn-Regular.ttf") format("ttf");
+}
+
+// Defines variables
 
 $background-color: #151515;
-$red: #C90100;
-$white: #FFF;
+$red: #c90100;
+$white: #fff;
 
 $menu-text-size: 1.8rem;
 $pagination-text-size: 2.2rem;
 $responsive-title: 2.6rem;
-$title-text-size: 3.2rem; 
+$title-text-size: 3.2rem;
 $project-text-size: 8.6rem;
 
-$typo-current: 'Ubuntu';
-$typo-title: 'Vollkorn';
+$typo-current: "Ubuntu";
+$typo-title: "Vollkorn";
 $typo-weight: 300;
 $cursor-size: 36px;
 $cursor-inside-size: 8px;
 
-
-.body
-{
+.body {
   background-color: $background-color;
   background-image: url(../images/bg-wave.svg);
   background-size: 110%;
   background-position-x: 20%;
   width: 100%;
   overflow-x: hidden;
-  .cursor
-  {
+  .cursor {
     pointer-events: none;
     position: absolute;
     width: $cursor-size;
@@ -56,8 +54,7 @@ $cursor-inside-size: 8px;
     transition: all 0.2s;
     display: none;
   }
-  .cursor--in
-  {
+  .cursor--in {
     pointer-events: none;
     position: absolute;
     width: $cursor-inside-size;
@@ -67,87 +64,73 @@ $cursor-inside-size: 8px;
     z-index: 10;
     display: none;
   }
-  .header
-  {
+  .header {
     z-index: 2;
     padding-top: 40px;
     position: fixed;
     width: 100%;
     background-color: $background-color;
-    .menu
-    {
+    .menu {
       width: 80%;
       margin: auto;
       display: flex;
       justify-content: space-between;
-      .menu__content
-      {
-        .menu__link
-        {
+      .menu__content {
+        .menu__link {
           color: $white;
           font-family: $typo-title;
           font-size: $menu-text-size;
           text-decoration: none;
           font-weight: $typo-weight;
         }
-        .menu__underline
-        {
+        .menu__underline {
           background-color: $red;
           height: 2px;
           width: 0%;
           transition: all 0.4s;
         }
-        .menu__underline--active
-        {
+        .menu__underline--active {
           background-color: $red;
           height: 2px;
           transition: all 0.4s;
           width: 100%;
         }
       }
-      .menu--right
-      {
+      .menu--right {
         width: 15%;
         display: flex;
         justify-content: space-between;
       }
     }
   }
-  .main
-  {
+  .main {
     position: relative;
-    .section--1
-    {
+    .section--1 {
       position: relative;
-      .container--title
-      {
+      .container--title {
         width: 100%;
         height: 20vh;
         position: absolute;
         top: 30%;
         overflow: hidden;
-        @keyframes wave
-        {
-          0%{
+        @keyframes wave {
+          0% {
             transform: translateY(-8vh);
           }
-          100%{
+          100% {
             transform: translateY(13vh);
           }
         }
-        .title
-        {
+        .title {
           font-family: $typo-title;
           color: $white;
           text-align: center;
           font-size: $title-text-size;
-          .title__wave
-          {
+          .title__wave {
             display: inline-block;
             transform: translateY(-8vh);
           }
-          .title--wave-effect
-          {
+          .title--wave-effect {
             will-change: transform;
             animation-name: wave;
             animation-duration: 1s;
@@ -157,28 +140,29 @@ $cursor-inside-size: 8px;
         }
       }
     }
-    .section--2, .section--3, .section--4, .section--5
-    {
+    .section--2,
+    .section--3,
+    .section--4,
+    .section--5,
+    .section--6,
+    .section--7,
+    .section--8 {
       position: relative;
       margin-top: 10vh;
-      .container--project
-      {
+      .container--project {
         width: 80%;
         margin: auto;
         padding-top: 100px;
-        .container--content
-        {
+        .container--content {
           position: relative;
           display: flex;
           justify-content: space-around;
-          .container--text
-          {
+          .container--text {
             pointer-events: none;
             z-index: 1;
             position: absolute;
             top: 10vh;
-            .project__name
-            {
+            .project__name {
               font-family: $typo-current;
               font-size: $menu-text-size;
               color: $white;
@@ -187,8 +171,7 @@ $cursor-inside-size: 8px;
               letter-spacing: 5.5px;
               font-weight: $typo-weight;
             }
-            .project__title
-            {
+            .project__title {
               margin-top: 34px;
               color: $white;
               font-weight: $typo-weight;
@@ -196,16 +179,14 @@ $cursor-inside-size: 8px;
               font-size: $project-text-size;
               letter-spacing: 4.5px;
             }
-            .project__date
-            {
+            .project__date {
               color: $red;
               font-weight: $typo-weight;
               font-family: $typo-current;
               font-size: $menu-text-size;
               letter-spacing: 4.5px;
             }
-            .project__description
-            {
+            .project__description {
               margin-top: 24px;
               color: $white;
               opacity: 0.8;
@@ -216,8 +197,7 @@ $cursor-inside-size: 8px;
               letter-spacing: 2px;
               width: 35%;
             }
-            .project__tech
-            {
+            .project__tech {
               margin-top: 34px;
               color: $white;
               opacity: 0.8;
@@ -227,48 +207,50 @@ $cursor-inside-size: 8px;
               letter-spacing: 2px;
             }
           }
-          .project__illu
-          {
+          .project__illu {
             position: relative;
             width: 100%;
-            .project__link
-            {
+            .project__link {
               position: absolute;
               width: 66%;
               height: 60vh;
               right: 0;
-              .container--img
-              {
+              .container--img {
                 position: absolute;
                 right: 0;
                 z-index: -10;
                 overflow: hidden;
                 width: 100%;
                 height: 60vh;
-                .project__img
-                {
+                .project__img {
                   position: absolute;
                   width: 100%;
                   height: 100%;
                   z-index: 0;
                 }
-                .img__calque
-                {
+                .img__calque {
                   position: absolute;
                   pointer-events: none;
                   width: 100%;
                   height: 100%;
                   z-index: 1;
-                  background: rgb(21,21,21);
-                  background: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(21,21,21,0.97) 6%, rgba(21,21,21,0.93) 14%, rgba(21,21,21,0.73) 29%, rgba(59,59,59,0.67) 45%, rgba(255,255,255,0) 100%);
+                  background: rgb(21, 21, 21);
+                  background: linear-gradient(
+                    90deg,
+                    rgba(21, 21, 21, 1) 0%,
+                    rgba(21, 21, 21, 0.97) 6%,
+                    rgba(21, 21, 21, 0.93) 14%,
+                    rgba(21, 21, 21, 0.73) 29%,
+                    rgba(59, 59, 59, 0.67) 45%,
+                    rgba(255, 255, 255, 0) 100%
+                  );
                 }
               }
             }
           }
         }
       }
-      .container--pagination
-      {
+      .container--pagination {
         position: absolute;
         transform: rotate(-90deg);
         right: 0%;
@@ -277,38 +259,32 @@ $cursor-inside-size: 8px;
         width: 150px;
         justify-content: space-between;
         align-items: center;
-        .pagination__current
-        {
+        .pagination__current {
           color: $red;
           font-family: $typo-current;
           font-weight: bold;
           font-size: $pagination-text-size;
         }
-        .pagination__line
-        {
+        .pagination__line {
           height: 2px;
           background-color: $white;
           width: 64px;
         }
-        .pagination__total
-        {
+        .pagination__total {
           font-family: $typo-current;
           color: $white;
           font-weight: bold;
           font-size: $pagination-text-size;
         }
       }
-    }  
+    }
   }
-  .main--about
-  {
-    .container--about
-    {
+  .main--about {
+    .container--about {
       padding-top: 20vh;
       width: 80%;
       margin: auto;
-      .about__title
-      {
+      .about__title {
         width: 60%;
         color: $white;
         font-weight: $typo-weight;
@@ -316,8 +292,7 @@ $cursor-inside-size: 8px;
         font-size: $project-text-size;
         letter-spacing: 4.5px;
       }
-      .about__info
-      {
+      .about__info {
         margin-top: 24px;
         color: $white;
         opacity: 0.8;
@@ -328,17 +303,14 @@ $cursor-inside-size: 8px;
         width: 45%;
         line-height: 150%;
       }
-      .about__resume
-      {
-        .resume__dl
-        {
+      .about__resume {
+        .resume__dl {
           width: 20%;
           display: flex;
           justify-content: space-between;
           align-items: baseline;
           text-decoration: none;
-          .resume__title
-          {
+          .resume__title {
             margin-top: 24px;
             font-family: $typo-current;
             font-size: $menu-text-size;
@@ -348,38 +320,32 @@ $cursor-inside-size: 8px;
             letter-spacing: 5.5px;
             font-weight: $typo-weight;
           }
-          .resume__logo
-          {
+          .resume__logo {
             width: 20px;
             height: 20px;
           }
         }
       }
     }
-    .container--competencies
-    {
+    .container--competencies {
       width: 80%;
       margin: auto;
       margin-top: 10vh;
       display: flex;
       justify-content: start;
       margin-bottom: 32px;
-      .skill
-      {
+      .skill {
         width: 50%;
-        .skill__title
-        {
+        .skill__title {
           color: $white;
-          font-family:  $typo-title;
+          font-family: $typo-title;
           font-size: $title-text-size;
         }
-        .skill__icons
-        {
+        .skill__icons {
           margin-top: 34px;
           width: 50%;
           float: left;
-          .skill__icon
-          {
+          .skill__icon {
             width: 34px;
             height: 36px;
             margin-right: 8px;
@@ -387,32 +353,26 @@ $cursor-inside-size: 8px;
           }
         }
       }
-      .language
-      {
+      .language {
         width: 50%;
-        .language__title
-        {
+        .language__title {
           color: $white;
           font-family: $typo-title;
           font-size: $title-text-size;
         }
-        .language__list
-        {
+        .language__list {
           margin-top: 34px;
-          .language__groupe
-          {
+          .language__groupe {
             margin-bottom: 16px;
             display: flex;
             justify-content: start;
-            .language__country
-            {
+            .language__country {
               color: $white;
               width: 25%;
               font-family: $typo-current;
               font-size: $menu-text-size;
             }
-            .language__level
-            {
+            .language__level {
               color: $white;
               opacity: 0.3;
               font-family: $typo-current;
@@ -422,30 +382,25 @@ $cursor-inside-size: 8px;
         }
       }
     }
-    .container--formation
-    {
+    .container--formation {
       width: 80%;
       margin: auto;
       margin-bottom: 10vh;
-      .formation__title
-      {
+      .formation__title {
         color: $white;
         font-family: $typo-title;
         font-size: $title-text-size;
         margin-bottom: 34px;
       }
-      .formation__content
-      {
+      .formation__content {
         margin-bottom: 16px;
-        .formation__description
-        {
+        .formation__description {
           color: $white;
           font-family: $typo-current;
           font-size: $menu-text-size;
           margin-bottom: 4px;
         }
-        .formation__date
-        {
+        .formation__date {
           color: $red;
           font-family: $typo-current;
           font-size: $menu-text-size;
@@ -453,39 +408,33 @@ $cursor-inside-size: 8px;
       }
     }
   }
-  .footer
-  {
+  .footer {
     z-index: 2;
     position: fixed;
     width: 100%;
-    // left: 10%;
     bottom: 0%;
     padding-bottom: 40px;
     background-color: $background-color;
-    .container--scroll
-    {
+    .container--scroll {
       width: 12px;
       position: absolute;
       left: calc(50% - 6px);
-      .scroll__mouse
-      {
+      .scroll__mouse {
         width: 12px;
         height: 24px;
         border-radius: 5.5px;
         background-color: $white;
         opacity: 0.4;
       }
-      @keyframes scroll_invitation
-      {
-        0%{
+      @keyframes scroll_invitation {
+        0% {
           top: 18px;
         }
-        100%{
+        100% {
           top: 8px;
         }
       }
-      .scroll__ball
-      {
+      .scroll__ball {
         position: absolute;
         left: 4px;
         animation-name: scroll_invitation;
@@ -497,40 +446,34 @@ $cursor-inside-size: 8px;
         background-color: $red;
       }
     }
-    .menu
-    {
+    .menu {
       width: 80%;
       margin: auto;
       opacity: 0.3;
       color: $white;
       display: flex;
       justify-content: space-between;
-      .menu__content
-      {
-        .menu__link
-        {
+      .menu__content {
+        .menu__link {
           font-family: $typo-current;
           text-decoration: none;
           font-size: $menu-text-size;
           font-weight: $typo-weight;
         }
-        .menu__underline
-        {
+        .menu__underline {
           background-color: $red;
           height: 2px;
           width: 0%;
           transition: all 0.4s;
         }
-        .menu__underline--active
-        {
+        .menu__underline--active {
           background-color: $red;
           height: 2px;
           transition: all 0.4s;
           width: 100%;
         }
       }
-      .menu--left
-      {
+      .menu--left {
         width: 16%;
         display: flex;
         justify-content: space-between;
@@ -548,85 +491,69 @@ $cursor-inside-size: 8px;
 
 // Ipad
 
-@media only screen 
-and (max-width : 768px)
-{
-  .body
-  {
-    .cursor
-    {
+@media only screen and (max-width: 768px) {
+  .body {
+    .cursor {
       display: none;
     }
-    .cursor--in
-    {
+    .cursor--in {
       display: none;
     }
-    .header
-    {
-      .menu
-      {
-        .menu--right
-        {
+    .header {
+      .menu {
+        .menu--right {
           width: 30%;
         }
       }
     }
-    .main
-    {
-      .section--2, .section--3, .section--4, .section--5
-      {
+    .main {
+      .section--2,
+      .section--3,
+      .section--4,
+      .section--5,
+      .section--6,
+      .section--7,
+      .section--8 {
         position: relative;
-        .container--project
-        {
+        .container--project {
           padding-top: 5vh;
-          .container--content
-          {
+          .container--content {
             position: relative;
             display: block;
-            .container--text
-            {
+            .container--text {
               position: relative;
-              .project__title
-              {
+              .project__title {
                 margin-top: 16px;
                 font-size: $responsive-title;
               }
-              .project__date
-              {
+              .project__date {
                 margin-top: 16px;
               }
-              .project__description
-              {
+              .project__description {
                 width: 90%;
                 position: absolute;
                 top: 44vh;
               }
-              .project__tech
-              {
+              .project__tech {
                 position: absolute;
                 top: 54vh;
               }
             }
-            .project__illu
-            {
+            .project__illu {
               max-width: 100%;
               height: 256px;
-              .project__link
-              {
+              .project__link {
                 left: 20%;
                 top: 10vh;
                 max-width: 100%;
                 max-height: 100%;
-                .container--img
-                {
+                .container--img {
                   max-height: 100%;
-                  .project__img
-                  {
+                  .project__img {
                     max-height: 100%;
                     max-width: 100%;
                   }
-                  .img__calque
-                  {
+                  .img__calque {
                     width: 100%;
                     height: 256px;
                   }
@@ -635,8 +562,7 @@ and (max-width : 768px)
             }
           }
         }
-        .container--pagination
-        {
+        .container--pagination {
           position: absolute;
           transform: rotate(-90deg);
           right: 0%;
@@ -645,99 +571,76 @@ and (max-width : 768px)
           width: 150px;
           justify-content: space-between;
           align-items: center;
-          .pagination__current
-          {
+          .pagination__current {
             color: $red;
             font-family: $typo-title;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
-          .pagination__line
-          {
+          .pagination__line {
             height: 2px;
             background-color: $white;
             width: 64px;
           }
-          .pagination__total
-          {
+          .pagination__total {
             font-family: $typo-title;
             color: $white;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
         }
-      }  
+      }
     }
-    .main--about
-    {
-      .container--about
-      {
-        .about__title
-        {
+    .main--about {
+      .container--about {
+        .about__title {
           font-size: $responsive-title;
           width: 80%;
         }
-        .about__info
-        {
+        .about__info {
           width: 80%;
         }
-        .about__resume
-        {
-          .resume__dl
-          {
+        .about__resume {
+          .resume__dl {
             width: 30%;
           }
         }
       }
-      .container--competencies
-      {
-        .skill
-        {
+      .container--competencies {
+        .skill {
           width: 60%;
-          .skill__icons
-          {
+          .skill__icons {
             width: 80%;
-            .skill__icon
-            {
+            .skill__icon {
               width: 32px;
               height: 36px;
             }
           }
         }
-        .language
-        {
+        .language {
           width: 50%;
-          .language__list
-          {
+          .language__list {
             width: 100%;
-            .language__groupe
-            {
+            .language__groupe {
               width: 100%;
-              .language__country
-              {
+              .language__country {
                 width: 50%;
               }
             }
           }
         }
       }
-      .container--formation
-      {
-        .formation__content
-        {
-          .formation__date
-          {
+      .container--formation {
+        .formation__content {
+          .formation__date {
             margin-top: 8px;
           }
         }
       }
     }
-    .footer
-    {
-      .menu
-      {
-        .menu--left
-        {
+    .footer {
+      .menu {
+        .menu--left {
           width: 30%;
         }
       }
@@ -754,99 +657,80 @@ and (max-width : 768px)
 
 // Mobile
 
-@media only screen 
-and (max-width : 414px)
-{
-  .body
-  {
-    .header
-    {
-      .menu
-      {
-        .menu--right
-        {
+@media only screen and (max-width: 414px) {
+  .body {
+    .header {
+      .menu {
+        .menu--right {
           width: 40%;
         }
       }
     }
-    .main
-    {
-      .section--1
-      {
-        .container--title
-        {
+    .main {
+      .section--1 {
+        .container--title {
           height: 30vh;
-          @keyframes wave
-          {
-            0%{
+          @keyframes wave {
+            0% {
               transform: translateY(-30vh);
             }
-            100%{
+            100% {
               transform: translateY(10vh);
             }
           }
-          .title
-          {
+          .title {
             line-height: 5rem;
-            .title__wave
-            {
+            .title__wave {
               transform: translateY(-30vh);
             }
           }
         }
       }
-      .section--2, .section--3, .section--4, .section--5
-      {
+      .section--2,
+      .section--3,
+      .section--4,
+      .section--5,
+      .section--6,
+      .section--7,
+      .section--8 {
         position: relative;
-        .container--project
-        {
+        .container--project {
           padding-top: 5vh;
-          .container--content
-          {
+          .container--content {
             position: relative;
             display: block;
-            .container--text
-            {
+            .container--text {
               position: relative;
-              .project__title
-              {
+              .project__title {
                 margin-top: 16px;
                 font-size: $responsive-title;
               }
-              .project__date
-              {
+              .project__date {
                 margin-top: 16px;
               }
-              .project__description
-              {
+              .project__description {
                 width: 80%;
                 position: absolute;
                 top: 44vh;
               }
-              .project__tech
-              {
+              .project__tech {
                 position: absolute;
                 top: 75vh;
                 width: 80%;
               }
             }
-            .project__illu
-            {
+            .project__illu {
               width: 100%;
               height: 28vh;
-              .project__link
-              {
+              .project__link {
                 width: 100%;
                 left: 0%;
-                .container--img
-                {
+                .container--img {
                   width: 100%;
-                  .project__img
-                  {
+                  .project__img {
                     width: 100%;
                   }
-                  .img__calque
-                  {
+                  .img__calque {
                     width: 100%;
                     height: 256px;
                   }
@@ -855,115 +739,90 @@ and (max-width : 414px)
             }
           }
         }
-        .container--pagination
-        {
+        .container--pagination {
           position: absolute;
           right: 0%;
           bottom: 25%;
-          .pagination__current
-          {
+          .pagination__current {
             color: $red;
             font-family: $typo-title;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
-          .pagination__line
-          {
+          .pagination__line {
             height: 2px;
             background-color: $white;
             width: 64px;
           }
-          .pagination__total
-          {
+          .pagination__total {
             font-family: $typo-title;
             color: $white;
             font-weight: bold;
             font-size: $pagination-text-size;
           }
         }
-      }  
-      .section--5
-      {
+      }
+      .section--8 {
         margin-bottom: 25vh;
       }
     }
-    .main--about
-    {
+    .main--about {
       margin-bottom: 25vh;
-      .container--about
-      {
-        .about__title
-        {
+      .container--about {
+        .about__title {
           width: 100%;
         }
-        .about__info
-        {
+        .about__info {
           width: 100%;
         }
-        .about__resume
-        {
-          .resume__dl
-          {
+        .about__resume {
+          .resume__dl {
             width: 60%;
           }
         }
       }
-      .container--competencies
-      {
+      .container--competencies {
         flex-direction: column;
-        .skill
-        {
+        .skill {
           width: 100%;
-          .skill__icons
-          {
+          .skill__icons {
             width: 80%;
-            .skill__icon
-            {
+            .skill__icon {
               width: 32px;
               height: 36px;
             }
           }
         }
-        .language
-        {
+        .language {
           margin-top: 56px;
           width: 100%;
-          .language__list
-          {
+          .language__list {
             width: 100%;
-            .language__groupe
-            {
+            .language__groupe {
               width: 100%;
-              .language__country
-              {
+              .language__country {
                 width: 50%;
               }
             }
           }
         }
       }
-      .container--formation
-      {
+      .container--formation {
         margin-top: 56px;
         margin-bottom: 100px;
       }
     }
-    .footer
-    {
+    .footer {
       bottom: 0%;
-      .container--scroll
-      {
+      .container--scroll {
         display: none;
       }
-      .menu
-      {
+      .menu {
         flex-direction: column;
-        .menu--left
-        {
+        .menu--left {
           flex-direction: column;
         }
-        .menu__content
-        {
+        .menu__content {
           margin-top: 8px;
         }
       }
@@ -973,239 +832,150 @@ and (max-width : 414px)
 
 // Mobile Iphone 6/7/8
 
-@media only screen 
-and (max-width : 375px)
-and (min-width : 325px)
-{
-  .body
-  {
-    .cursor, .cursor--in
-    {
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+  .body {
+    .cursor,
+    .cursor--in {
       visibility: hidden;
     }
-    .main
-    {
-      .section--2, .section--3, .section--4, .section--5
-      {
-        .container--project
-        {
+    .main {
+      .section--2,
+      .section--3,
+      .section--4,
+      .section--5,
+      .section--6,
+      .section--7,
+      .section--8 {
+        .container--project {
           width: 100%;
           padding: 0;
-          .container--content
-          {
-            .text--relative
-            {
+          .container--content {
+            .text--relative {
               width: 80%;
               margin: auto;
-              .container--text
-              {
+              .container--text {
                 top: 0;
-                .project__date
-                {
+                .project__date {
                   margin-top: 0;
                   height: 40px;
                 }
-                .project__description
-                {
+                .project__description {
                   top: 50vh;
                   line-height: 130%;
                 }
-                .project__tech
-                {
+                .project__tech {
                   line-height: 130%;
                 }
               }
             }
-            .project__illu
-            {
+            .project__illu {
               height: 32vh;
-              .project__link
-              {
+              .project__link {
                 top: 0;
               }
             }
           }
-          .container--pagination
-          {
+          .container--pagination {
             right: -10%;
             bottom: 32%;
           }
         }
       }
-      .section--3
-      {
-        .container--content
-        {
-          .text--relative
-          {
-            .container--text
-            {
-              .project__tech
-              {
-                top: 86vh;
-              }
-            }
-          }
-        }
-      }
-      .section--4
-      {
-        .container--content
-        {
-          .text--relative
-          {
-            .container--text
-            {
-              .project__tech
-              {
-                top: 72vh;
-              }
-            }
-          }
-        }
-      }
-      .section--5
-      {
-        .container--content
-        {
-          .text--relative
-          {
-            .container--text
-            {
-              .project__tech
-              {
-                top: 68vh;
-              }
-            }
-          }
-        }
-      }
     }
   }
-
 }
 
 // Mobile Iphone 5 / SE
 
-@media only screen 
-and (max-width : 320px)
-{
-  .body
-  {
-    .header
-    {
-      .menu
-      {
-        .menu--right
-        {
-          .menu__content:first-child
-          {
+@media only screen and (max-width: 320px) {
+  .body {
+    .header {
+      .menu {
+        .menu--right {
+          .menu__content:first-child {
             display: none;
           }
         }
       }
     }
-    .main
-    {
-      .section--2, .section--3, .section--4, .section--5
-      {
-        .container--project
-        {
-          .container--content
-          {
-            .text--relative
-            {
-              .container--text
-              {
-                .project__date
-                {
+    .main {
+      .section--2,
+      .section--3,
+      .section--4,
+      .section--5,
+      .section--6,
+      .section--7,
+      .section--8 {
+        .container--project {
+          .container--content {
+            .text--relative {
+              .container--text {
+                .project__date {
                   margin-bottom: 30px;
                 }
-                .project__description
-                {
+                .project__description {
                   margin-top: 60px;
                 }
-                .project__tech
-                {
+                .project__tech {
                   margin-top: 100px;
                   line-height: 2.2rem;
                 }
               }
             }
           }
-          .container--pagination
-          {
+          .container--pagination {
             bottom: 15%;
             right: -10%;
           }
         }
       }
-      .section--1
-      {
-        .container--title
-        {
+      .section--1 {
+        .container--title {
           height: 35vh;
         }
       }
-      .section--2
-      {
+      .section--2 {
         margin-top: 0;
-        .container--project
-        {
+        .container--project {
           padding-top: 0%;
-          .container--content
-          {
-            .text--relative
-            {
+          .container--content {
+            .text--relative {
               margin-top: 0;
               padding-top: 0;
-              .container--text
-              {
+              .container--text {
                 margin-top: 0;
                 padding-top: 0;
                 top: 0;
-                .project__description
-                {
+                .project__description {
                   margin-top: 80px;
                   line-height: 140%;
                 }
-                .project__tech
-                {
+                .project__tech {
                   margin-top: 120px;
                 }
               }
             }
-            .project__illu
-            {
-              .project__link
-              {
+            .project__illu {
+              .project__link {
                 top: 0;
               }
             }
           }
-          .container--pagination
-          {
+          .container--pagination {
             bottom: 25%;
           }
         }
       }
-      .section--3
-      {
+      .section--3 {
         margin-bottom: 140px;
-        .container--project
-        {
-          .container--content
-          {
-            .text--relative
-            {
-              .container--text
-              {
-                .project__description
-                {
+        .container--project {
+          .container--content {
+            .text--relative {
+              .container--text {
+                .project__description {
                   line-height: 140%;
                 }
-                .project__tech
-                {
+                .project__tech {
                   margin-top: 180px;
                 }
               }
@@ -1213,49 +983,35 @@ and (max-width : 320px)
           }
         }
       }
-      .section--4
-      {
+      .section--4 {
         margin-top: 200px;
-        .container--project
-        {
-          .container--content
-          {
-            .text--relative
-            {
-              .container--text
-              {
-                .project__description
-                {
+        .container--project {
+          .container--content {
+            .text--relative {
+              .container--text {
+                .project__description {
                   margin-top: 80px;
                   line-height: 140%;
                 }
-                .project__tech
-                {
+                .project__tech {
                   margin-top: 80px;
                 }
               }
             }
           }
-          .container--pagination
-          {
+          .container--pagination {
             bottom: 11%;
           }
         }
       }
-      .section--5
-      {
-        .container--project
-        {
-          .container--content
-          {
-            .text--relative
-            {
-              .container--text
-              {
-                .project__tech
-                {
-                 margin-top: 15px;
-                 margin-bottom: 30px;
+      .section--5 {
+        .container--project {
+          .container--content {
+            .text--relative {
+              .container--text {
+                .project__tech {
+                  margin-top: 15px;
+                  margin-bottom: 30px;
                 }
               }
             }
